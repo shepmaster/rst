@@ -9,9 +9,8 @@ class App
   include Methadone::CLILogging
 
   main do # Add args you want: |like,so|
-    # your program code here
-    # You can access CLI options via
-    # the options Hash
+    puts opts
+    exit 0
   end
 
   # supplemental methods here
