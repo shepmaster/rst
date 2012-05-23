@@ -1,9 +1,9 @@
-Feature: My bootstrapped app kinda works
-  In order to get going on coding my awesome app
-  I want to have aruba and cucumber setup
-  So I don't have to do it myself
+Feature: Help text
+  In order to be easy to learn and familiar
+  I want rst to have help text
+  So I don't have to look it up outside rst
 
-  Scenario: App just runs
+  Scenario: rst --help
     When I get help for "rst"
     Then the exit status should be 0
     And the banner should be present
