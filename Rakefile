@@ -14,7 +14,7 @@ Bundler::GemHelper.install_tasks
 
 
 Rake::TestTask.new do |t|
-  t.pattern = 'test/tc_*.rb'
+  t.pattern = 'spec/*_spec.rb'
 end
 
 
