@@ -4,9 +4,9 @@ require File.expand_path('../lib/rst/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Carol Nichols"]
   gem.email         = ["carol.nichols@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{A command line client for rstat.us}
+  gem.summary       = %q{A command line client for rstat.us}
+  gem.homepage      = "https://github.com/clnclarinet/rst"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
