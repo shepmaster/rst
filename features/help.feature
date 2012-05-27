@@ -10,6 +10,7 @@ Feature: Help text
     And the banner should document that this app takes options
     And the following options should be documented:
       |--version|
+      |--log-level|
 
   Scenario: rst --help
     When I get help for "rst"
@@ -18,4 +19,7 @@ Feature: Help text
     And the banner should document that this app takes options
     And the following options should be documented:
       |--version|
-    And the banner should document that this app takes no arguments
+    And the output should contain:
+      """
+      Usage: rst [options] [command]
+      """

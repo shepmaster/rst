@@ -8,14 +8,22 @@ class App
   include Methadone::Main
   include Methadone::CLILogging
 
-  main do # Add args you want: |like,so|
-    puts opts
+  main do |command|
+    case command
+    when "world"
+      puts "\n"
+      puts Rst::CLI.world.join("\n\n")
+    else
+      puts opts
+    end
     exit 0
   end
 
   # supplemental methods here
 
   # Declare command-line interface here
+
+  arg :command, :optional
 
   description "A command line interface for rstat.us"
 

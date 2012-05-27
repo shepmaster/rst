@@ -6,7 +6,4 @@ Feature: world
   Scenario: default world
     When I run `rst world`
     Then the exit status should be 0
-    And the output should contain:
-      """
-      foo
-      """
+    And the output should contain 20 updates
