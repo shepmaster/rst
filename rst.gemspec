@@ -15,8 +15,10 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Rst::VERSION
   gem.add_development_dependency('rdoc')
-  gem.add_development_dependency('aruba', '~>0.4.11')
-  gem.add_development_dependency('vcr', '~>2.1.1')
+  gem.add_development_dependency('aruba', '~> 0.4.11')
+  gem.add_development_dependency('vcr', '~> 2.1.1')
+  gem.add_development_dependency('mocha', '~> 0.11.3')
+  gem.add_development_dependency('minitest', '~> 2.12.1')
   gem.add_development_dependency('rake','~> 0.9.2')
-  gem.add_dependency('methadone', '~>1.2.0')
+  gem.add_dependency('methadone', '~> 1.2.0')
 end
