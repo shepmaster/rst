@@ -24,8 +24,8 @@ module Rst
         Typhoeus::Request.get(url).body
       )
 
-      messages = all_response.css("div#messages ul.all li").map { |m|
-                   Rst::Status.new(m)
+      messages = all_response.css("div#messages ul.all li").map { |li|
+                   Rst::Status.parse(li)
                  }
 
     end
