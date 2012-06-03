@@ -1,6 +1,8 @@
 rst
 ---
 
+[![Build Status](https://secure.travis-ci.org/clnclarinet/rst.png?branch=master)](http://travis-ci.org/clnclarinet/rst)
+
 A command line client for [rstat.us](http://rstat.us). Heavily influenced by [t](https://github.com/sferik/t).
 
 Current Functionality
