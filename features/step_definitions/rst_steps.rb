@@ -1,4 +1,4 @@
-# Put your step definitions here
+# Custom rst steps
 
 Then /^the output should contain (\d+) updates$/ do |num|
   num = num.to_i
