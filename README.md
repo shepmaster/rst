@@ -5,6 +5,17 @@ rst
 
 A command line client for [rstat.us](http://rstat.us). Heavily influenced by [t](https://github.com/sferik/t).
 
+Usage
+-----
+
+Install the gem:
+
+    gem install rst
+
+Run with no arguments to see the help:
+
+    rst
+
 Current Functionality
 ---------------------
 
