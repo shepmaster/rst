@@ -6,12 +6,13 @@ A command line client for [rstat.us](http://rstat.us). Heavily influenced by [t]
 Current Functionality
 ---------------------
 
-* Runs with an exit status of 0.
+* Read rstat.us world statuses without being logged in.
 
 Future functionality
 --------------------
 
-* Read statuses without being logged in.
+* Log in and read your friends' statuses
+* Post from the client
 
 
 Author: Carol Nichols
