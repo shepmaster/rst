@@ -1,0 +1,997 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: http://rstat.us
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: {}
+
+  response: 
+    status: 
+      code: 200
+      message: "OK "
+    headers: 
+      Server: 
+      - nginx
+      Date: 
+      - Sun, 03 Jun 2012 15:21:08 GMT
+      Content-Type: 
+      - text/html; charset=utf-8
+      Transfer-Encoding: 
+      - chunked
+      Connection: 
+      - keep-alive
+      X-Ua-Compatible: 
+      - IE=Edge,chrome=1
+      Etag: 
+      - "\"9494d1201a8cdf2e3610a03952ce2677\""
+      Cache-Control: 
+      - max-age=0, private, must-revalidate
+      X-Runtime: 
+      - "0.885035"
+      X-Rack-Cache: 
+      - miss
+      Set-Cookie: 
+      - _rstat.us_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWY3OWFlMDlkY2RiYjA2MDI1NGNlMWVlMDkwNGNiZGUzBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMVlFbEMwQlozcXE1ZXhoWjFVeVpXVXNIbTBjOVA1UkFMVitWK216RmdVdjQ9BjsARg%3D%3D--dbb5b2682f34c441bee28e69f999157e5b1b177a; path=/; expires=Sun, 10-Jun-2012 15:21:08 GMT; HttpOnly
+      X-Varnish: 
+      - "333407541"
+      Age: 
+      - "0"
+      Via: 
+      - 1.1 varnish
+      Content-Encoding: 
+      - gzip
+    body: 
+      encoding: ASCII-8BIT
+      string: |
+        <!DOCTYPE html>
+        <html class='no-js' lang='en'>
+        <head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+        <meta charset='utf-8'>
+        <title>rstat.us</title>
+        <script src="/assets/application-85f9725f39cb94c87fedaf584d19c2b4.js" type="text/javascript"></script>
+        <link href="/assets/application-25f42916ee009ac80dfe4dc5aea6c47e.css" media="screen" rel="stylesheet" type="text/css" />
+        <meta content="authenticity_token" name="csrf-param" />
+        <meta content="YElC0BZ3qq5exhZ1UyZWUsHm0c9P5RALV+V+mzFgUv4=" name="csrf-token" />
+        <link href='images/mobile_icons/apple-touch-icon_114.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+        <link href='images/mobile_icons/apple-touch-icon_72.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+        <link href='images/mobile_icons/apple-touch-icon.png' rel='apple-touch-icon-precomposed'>
+        
+        <script>
+          //<![CDATA[
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-22030550-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+            })();
+          //]]>
+        </script>
+        
+        </head>
+        
+        <body id='home'>
+        <div id='header-wrap'>
+        <div id='header'>
+        <div id='logo'>
+        <a href='/'>
+        <h1>
+        rstat.us
+        </h1>
+        </a>
+        </div>
+        <ul class='menu' id='main'>
+        <li class='home active'>
+              <a href='/' rel='index'>Home</a>
+            </li>
+        <li class='updates '>
+              <a href='/updates' rel='messages-all'>Updates</a>
+            </li>
+        <li class='search '>
+              <a href='/search'>Search</a>
+            </li>
+        <li class='users '>
+              <a href='/users'>Users</a>
+            </li>
+        </ul>
+        
+        
+        </div>
+        </div>
+        
+        
+        <div id='flash'>
+        </div>
+        
+        <div id='welcome'>
+        <div class='wrap'>
+        <div id='intro'>
+        <h1>Hello.</h1>
+        <h3>Welcome to rstat.us</h3>
+        </div>
+        <div id='signup'>
+        <h3>Sign in with</h3>
+        <div class='twitter option'>
+        <a class='button' href='/auth/twitter'>
+        <span class='icon twitter'></span>
+        Twitter
+        </a>
+        </div>
+        <div class='username option'>
+        <a class='button' href='/login'>
+        <span class='icon comment'></span>
+        Username
+        </a>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id='pitch'>
+        <div class='wrap'>
+        <a class='col' href='/login' id='col-1'>
+        <div class='content'>
+        <h3>
+        Sign Up
+        </h3>
+        with Twitter or create a new account
+        </div>
+        <img alt="Slide1" src="/assets/slide1-5dd1b6b8ec93eb6f9d15b0d84f883231.png" />
+        </a>
+        <div class='col' id='col-2'>
+        <div class='content'>
+        <h3>
+        Connect
+        </h3>
+        to your friends and family around the world
+        </div>
+        <img alt="Slide2" src="/assets/slide2-1ab49b82188ee4ddfee0e94c875e0ec9.png" />
+        </div>
+        <div class='col last-col' id='col-3'>
+        <div class='content'>
+        <h3>
+        Share
+        </h3>
+        your thoughts in 140 characters or less
+        </div>
+        <img alt="Slide3" src="/assets/slide3-cfa4a836c6cf4b2ca6eee8c2dcc8f698.png" />
+        </div>
+        </div>
+        </div>
+        <div id='page'>
+        <div id='content-wrap'>
+        <div id='top'>
+        <h3>Recent updates</h3>
+        <p>What people are talking about right now</p>
+        </div>
+        <div id='content'>
+        <div class='updates'>
+        <div id='messages'>
+        <ul class='updates' id=''>
+        <li class='hentry message update' data-id='4fcb8067de8baf00010108a3' data-name='alpacaherder' id='update-4fcb8067de8baf00010108a3'>
+        <div class='author vcard'>
+        <a class='url' href='http://identi.ca/user/16938' rel='user'>
+        <div class="avatar"><a href="http://identi.ca/user/16938"><img alt="avatar" class="photo user-image" src="http://avatar3.status.net/i/identica/16938-96-20090624205858.jpeg" /></a></div>
+        </a>
+        <span class='fn'>
+        <a class='url' href='http://identi.ca/user/16938'>
+        Stephen Michael Kellat
+        (<span class="nickname user-text">alpacaherder</span>)
+        </a>
+        </span>
+        </div>
+        <div class='entry-content'>
+        <span class='message-text'>
+        Hebrews 12:1-3 now
+        </span>
+        </div>
+        <div class='info'>
+        <time class="published" datetime="2012-06-03T15:18:57Z" pubdate="pubdate"><a class="timeago" href="http://identi.ca/notice/94266528" rel="bookmark message" title="2012-06-03T15:18:57Z"><span class="date-time">2012-06-03T15:18:57</span></a></time>
+        </div>
+        <div class='actions'>
+        </div>
+        </li>
+        <li class='hentry message update' data-id='4fcb7f30de8baf0001010763' data-name='jpope' id='update-4fcb7f30de8baf0001010763'>
+        <div class='author vcard'>
+        <a class='url' href='http://micro.jpope.org/user/1' rel='user'>
+        <div class="avatar"><a href="http://micro.jpope.org/user/1"><img alt="avatar" class="photo user-image" src="https://secure.gravatar.com/avatar.php?gravatar_id=e22211b8862bd536337a38d8ca1ef443&amp;default=http%3A%2F%2Fmicro.jpope.org%2Ftheme%2Fjpope%2Fdefault-avatar-profile.png&amp;size=96" /></a></div>
+        </a>
+        <span class='fn'>
+        <a class='url' href='http://micro.jpope.org/user/1'>
+        jpope
+        (<span class="nickname user-text">jpope</span>)
+        </a>
+        </span>
+        </div>
+        <div class='entry-content'>
+        <span class='message-text'>
+        Compiling a video out of 4531 radar images. Should be fun. :)
+        </span>
+        </div>
+        <div class='info'>
+        <time class="published" datetime="2012-06-03T15:13:34Z" pubdate="pubdate"><a class="timeago" href="http://micro.jpope.org/notice/336574" rel="bookmark message" title="2012-06-03T15:13:34Z"><span class="date-time">2012-06-03T15:13:34</span></a></time>
+        </div>
+        <div class='actions'>
+        </div>
+        </li>
+        <li class='hentry message update' data-id='4fcb7ee0de8baf000101071b' data-name='alpacaherder' id='update-4fcb7ee0de8baf000101071b'>
+        <div class='author vcard'>
+        <a class='url' href='http://identi.ca/user/16938' rel='user'>
+        <div class="avatar"><a href="http://identi.ca/user/16938"><img alt="avatar" class="photo user-image" src="http://avatar3.status.net/i/identica/16938-96-20090624205858.jpeg" /></a></div>
+        </a>
+        <span class='fn'>
+        <a class='url' href='http://identi.ca/user/16938'>
+        Stephen Michael Kellat
+        (<span class="nickname user-text">alpacaherder</span>)
+        </a>
+        </span>
+        </div>
+        <div class='entry-content'>
+        <span class='message-text'>
+        Phillipians 3:12-16 now...
+        </span>
+        </div>
+        <div class='info'>
+        <time class="published" datetime="2012-06-03T15:12:31Z" pubdate="pubdate"><a class="timeago" href="http://identi.ca/notice/94266438" rel="bookmark message" title="2012-06-03T15:12:31Z"><span class="date-time">2012-06-03T15:12:31</span></a></time>
+        </div>
+        <div class='actions'>
+        </div>
+        </li>
+        <li class='hentry message update' data-id='4fcb7e9ade8baf00010106b4' data-name='alpacaherder' id='update-4fcb7e9ade8baf00010106b4'>
+        <div class='author vcard'>
+        <a class='url' href='http://identi.ca/user/16938' rel='user'>
+        <div class="avatar"><a href="http://identi.ca/user/16938"><img alt="avatar" class="photo user-image" src="http://avatar3.status.net/i/identica/16938-96-20090624205858.jpeg" /></a></div>
+        </a>
+        <span class='fn'>
+        <a class='url' href='http://identi.ca/user/16938'>
+        Stephen Michael Kellat
+        (<span class="nickname user-text">alpacaherder</span>)
+        </a>
+        </span>
+        </div>
+        <div class='entry-content'>
+        <span class='message-text'>
+        Today, we talk about retirement as mentioned in Numbers. Except for 1 reference, graduation &amp; retirement are concepts foreign to the Bible.
+        </span>
+        </div>
+        <div class='info'>
+        <time class="published" datetime="2012-06-03T15:11:20Z" pubdate="pubdate"><a class="timeago" href="http://identi.ca/notice/94266421" rel="bookmark message" title="2012-06-03T15:11:20Z"><span class="date-time">2012-06-03T15:11:20</span></a></time>
+        </div>
+        <div class='actions'>
+        </div>
+        </li>
+        <li class='hentry message update' data-id='4fcb7e84de8baf000101069b' data-name='parlementum' id='update-4fcb7e84de8baf000101069b'>
+        <div class='author vcard'>
+        <a class='url' href='http://parlementum.net/user/3785' rel='user'>
+        <div class="avatar"><a href="http://parlementum.net/user/3785"><img alt="avatar" class="photo user-image" src="http://parlementum.net/avatar/3785-96-20120119032323.jpeg" /></a></div>
+        </a>
+        <span class='fn'>
+        <a class='url' href='http://parlementum.net/user/3785'>
+        Charles Roth
+        (<span class="nickname user-text">parlementum</span>)
+        </a>
+        </span>
+        </div>
+        <div class='entry-content'>
+        <span class='message-text'>
+        The exuberant variety of little boats is as remarkable as the Royal Barge itself. <a href='/search?q=%23Jubilee'>#Jubilee</a>
+        </span>
+        </div>
+        <div class='info'>
+        <time class="published" datetime="2012-06-03T15:10:41Z" pubdate="pubdate"><a class="timeago" href="http://parlementum.net/notice/2805967" rel="bookmark message" title="2012-06-03T15:10:41Z"><span class="date-time">2012-06-03T15:10:41</span></a></time>
+        </div>
+        <div class='actions'>
+        </div>
+        </li>
+        <li class='hentry message update' data-id='4fcb7e11de8baf00010105d3' data-name='alpacaherder' id='update-4fcb7e11de8baf00010105d3'>
+        <div class='author vcard'>
+        <a class='url' href='http://identi.ca/user/16938' rel='user'>
+        <div class="avatar"><a href="http://identi.ca/user/16938"><img alt="avatar" class="photo user-image" src="http://avatar3.status.net/i/identica/16938-96-20090624205858.jpeg" /></a></div>
+        </a>
+        <span class='fn'>
+        <a class='url' href='http://identi.ca/user/16938'>
+        Stephen Michael Kellat
+        (<span class="nickname user-text">alpacaherder</span>)
+        </a>
+        </span>
+        </div>
+        <div class='entry-content'>
+        <span class='message-text'>
+        Yeah, wasn't intending to bong the lid on the communion cup carrier stack.  Made out as if I intended that.  Looked crypto-Catholic again...
+        </span>
+        </div>
+        <div class='info'>
+        <time class="published" datetime="2012-06-03T15:09:01Z" pubdate="pubdate"><a class="timeago" href="http://identi.ca/notice/94266389" rel="bookmark message" title="2012-06-03T15:09:01Z"><span class="date-time">2012-06-03T15:09:01</span></a></time>
+        </div>
+        <div class='actions'>
+        </div>
+        </li>
+        </ul>
+        <nav class='pagination'>
+        </nav>
+        
+        </div>
+        
+        </div>
+        </div>
+        <div id='bottom'>
+        <div class='login'>
+        <a href='/login'>
+        Join the conversation
+        </a>
+        </div>
+        <div class='read-more'>
+        <a href='/updates' rel='messages-all'>
+        more...
+        </a>
+        </div>
+        </div>
+        </div>
+        <div id='sidebar'>
+        <div id='manifesto'>
+        <h3>rstat.us?</h3>
+        
+        <p>Microblogging has taken the world by storm. Millions of people around the world now share their thoughts with friends, family, and random strangers every day. Links are shared, stories are told, and events are discussed. rstatus is the newest place to participate in the collective conscious of the planet.</p>
+        
+        <h3>What's different about it?</h3>
+        
+        <p>There are two things that make rstat.us special: <em>simplicity</em> and <em>openness</em>.</p>
+        
+        <p><strong>Simplicity</strong> is a core 'feature' of rstat.us. We pride ourselves on saying 'no' to lots of features. Our interface is clean, and easy to understand. We give you just enough features to be interesting, but not enough to be complicated and confusing.</p>
+        
+        <p>If you're a software developer, you'll probably want to check out our <a href="/open_source">Open Source page</a>. If that's greek to you, here's the deal on <strong>Openness</strong>: the programming code that makes up rstat.us is available for anyone to download, free of charge. Programmers can use that code to run their own websites just like rstat.us, and you can subscribe to your friends on any site that supports the <a href="http://ostatus.org/about">OStatus protocol</a>, like <a href="http://identi.ca/">identi.ca</a>. This also means that you can own your data, we'll never stop you from having full access to everything you've put into rstat.us.</p>
+        
+        <p>- The <strong>rstat.us</strong> team</p>
+        </div>
+        </div>
+        </div>
+        <div id='footer'>
+        <div id='footer-wrap'>
+        <div id='footer-logo'>
+        <a href='/'>
+        rstat.us
+        </a>
+        </div>
+        <ul class='menu' id='footer-meu'>
+        <li class='home active'>
+              <a href='/'>Home</a>
+            </li>
+        <li class='login/signup '>
+              <a href='/login'>Login/Signup</a>
+            </li>
+        <li class='open_source '>
+              <a href='/open_source'>Open Source</a>
+            </li>
+        <li class='contact '>
+              <a href='/contact'>Contact</a>
+            </li>
+        
+        </ul>
+        
+        </div>
+        </div>
+        
+        <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+        NREUMQ.push(["load",new Date().getTime()]);
+        var e=document.createElement("script");
+        e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/36/eum/rum-staging.js";
+        document.body.appendChild(e);
+        if(NREUMQ.a)NREUMQ.a();
+        };
+        NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+        };
+        NREUMQ.push(["nrfj","beacon-1.newrelic.com","1b64b06072",527427,"IF1bEhcOWQhXRxxFTQJGXAVKCVoJV0VSUVw=",0.0,818,new Date().getTime(),"","","","",""])</script></body>
+        </html>
+
+    http_version: "1.1"
+  recorded_at: Sun, 03 Jun 2012 15:21:12 GMT
+- request: 
+    method: get
+    uri: http://rstat.us/updates
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: {}
+
+  response: 
+    status: 
+      code: 200
+      message: "OK "
+    headers: 
+      Server: 
+      - nginx
+      Date: 
+      - Sun, 03 Jun 2012 15:21:10 GMT
+      Content-Type: 
+      - text/html; charset=utf-8
+      Transfer-Encoding: 
+      - chunked
+      Connection: 
+      - keep-alive
+      X-Ua-Compatible: 
+      - IE=Edge,chrome=1
+      Etag: 
+      - "\"6e69fa3d8325513ac67d60775fa95e7e\""
+      Cache-Control: 
+      - max-age=0, private, must-revalidate
+      X-Runtime: 
+      - "1.679158"
+      X-Rack-Cache: 
+      - miss
+      Set-Cookie: 
+      - _rstat.us_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWI2OWRlNDI5NGM0NWNkMjk4ZmVkODM0NTkzNjRjZDYyBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMU84bkFBampDc0F2NjJMUnBacllRUGpObFdRbCtzTlhtWFNKSWdWTkNrNkk9BjsARg%3D%3D--68469855ee3de2a6f1bc56eea36b0631bb26e691; path=/; expires=Sun, 10-Jun-2012 15:21:10 GMT; HttpOnly
+      X-Varnish: 
+      - "1092141205"
+      Age: 
+      - "0"
+      Via: 
+      - 1.1 varnish
+      Content-Encoding: 
+      - gzip
+    body: 
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n\
+        <html class='no-js' lang='en'>\n\
+        <head><script type=\"text/javascript\">var NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n\
+        <meta charset='utf-8'>\n\
+        <title>updates - rstat.us</title>\n\
+        <script src=\"/assets/application-85f9725f39cb94c87fedaf584d19c2b4.js\" type=\"text/javascript\"></script>\n\
+        <link href=\"/assets/application-25f42916ee009ac80dfe4dc5aea6c47e.css\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n\
+        <meta content=\"authenticity_token\" name=\"csrf-param\" />\n\
+        <meta content=\"O8nAAjjCsAv62LRpZrYQPjNlWQl+sNXmXSJIgVNCk6I=\" name=\"csrf-token\" />\n\
+        <link href='images/mobile_icons/apple-touch-icon_114.png' rel='apple-touch-icon-precomposed' sizes='114x114'>\n\
+        <link href='images/mobile_icons/apple-touch-icon_72.png' rel='apple-touch-icon-precomposed' sizes='72x72'>\n\
+        <link href='images/mobile_icons/apple-touch-icon.png' rel='apple-touch-icon-precomposed'>\n\n\
+        <script>\n  //<![CDATA[\n    var _gaq = _gaq || [];\n    _gaq.push(['_setAccount', 'UA-22030550-1']);\n    _gaq.push(['_trackPageview']);\n    \n    (function() {\n      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);\n    })();\n  //]]>\n\
+        </script>\n\n\
+        </head>\n\n\
+        <body>\n\
+        <div id='header-wrap'>\n\
+        <div id='header'>\n\
+        <div id='logo'>\n\
+        <a href='/'>\n\
+        <h1>\n\
+        rstat.us\n\
+        </h1>\n\
+        </a>\n\
+        </div>\n\
+        <ul class='menu' id='main'>\n\
+        <li class='home '>\n      <a href='/' rel='index'>Home</a>\n    </li>\n\
+        <li class='updates active'>\n      <a href='/updates' rel='messages-all'>Updates</a>\n    </li>\n\
+        <li class='search '>\n      <a href='/search'>Search</a>\n    </li>\n\
+        <li class='users '>\n      <a href='/users'>Users</a>\n    </li>\n\
+        </ul>\n\n\n\
+        </div>\n\
+        </div>\n\n\n\
+        <div id='page'>\n\
+        <div id='content-wrap'>\n\
+        <div id='top'>\n\
+        <div id='flash'>\n\
+        </div>\n\n\
+        <div id='updates-menu-wrap'>\n\
+        <div id='updates-menu-background'>\n\
+        <ul class='menu' id='updates-menu'>\n\
+        <li class='world active'>\n      <a href='/updates'><div class='icon'></div>World</a>\n    </li>\n\
+        </ul>\n\n\
+        </div>\n\
+        </div>\n\n\
+        </div>\n\
+        <div id='content'>\n\
+        <div id='messages'>\n\
+        <ul class='all has-update-form updates' id='updates'>\n\
+        <li class='hentry message update' data-id='4fcb8067de8baf00010108a3' data-name='alpacaherder' id='update-4fcb8067de8baf00010108a3'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://identi.ca/user/16938' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://identi.ca/user/16938\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar3.status.net/i/identica/16938-96-20090624205858.jpeg\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://identi.ca/user/16938'>\n\
+        Stephen Michael Kellat\n\
+        (<span class=\"nickname user-text\">alpacaherder</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Hebrews 12:1-3 now\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T15:18:57Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94266528\" rel=\"bookmark message\" title=\"2012-06-03T15:18:57Z\"><span class=\"date-time\">2012-06-03T15:18:57</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7f30de8baf0001010763' data-name='jpope' id='update-4fcb7f30de8baf0001010763'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://micro.jpope.org/user/1' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://micro.jpope.org/user/1\"><img alt=\"avatar\" class=\"photo user-image\" src=\"https://secure.gravatar.com/avatar.php?gravatar_id=e22211b8862bd536337a38d8ca1ef443&amp;default=http%3A%2F%2Fmicro.jpope.org%2Ftheme%2Fjpope%2Fdefault-avatar-profile.png&amp;size=96\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://micro.jpope.org/user/1'>\n\
+        jpope\n\
+        (<span class=\"nickname user-text\">jpope</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Compiling a video out of 4531 radar images. Should be fun. :)\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T15:13:34Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://micro.jpope.org/notice/336574\" rel=\"bookmark message\" title=\"2012-06-03T15:13:34Z\"><span class=\"date-time\">2012-06-03T15:13:34</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7ee0de8baf000101071b' data-name='alpacaherder' id='update-4fcb7ee0de8baf000101071b'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://identi.ca/user/16938' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://identi.ca/user/16938\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar3.status.net/i/identica/16938-96-20090624205858.jpeg\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://identi.ca/user/16938'>\n\
+        Stephen Michael Kellat\n\
+        (<span class=\"nickname user-text\">alpacaherder</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Phillipians 3:12-16 now...\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T15:12:31Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94266438\" rel=\"bookmark message\" title=\"2012-06-03T15:12:31Z\"><span class=\"date-time\">2012-06-03T15:12:31</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7e9ade8baf00010106b4' data-name='alpacaherder' id='update-4fcb7e9ade8baf00010106b4'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://identi.ca/user/16938' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://identi.ca/user/16938\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar3.status.net/i/identica/16938-96-20090624205858.jpeg\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://identi.ca/user/16938'>\n\
+        Stephen Michael Kellat\n\
+        (<span class=\"nickname user-text\">alpacaherder</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Today, we talk about retirement as mentioned in Numbers. Except for 1 reference, graduation &amp; retirement are concepts foreign to the Bible.\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T15:11:20Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94266421\" rel=\"bookmark message\" title=\"2012-06-03T15:11:20Z\"><span class=\"date-time\">2012-06-03T15:11:20</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7e84de8baf000101069b' data-name='parlementum' id='update-4fcb7e84de8baf000101069b'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://parlementum.net/user/3785' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://parlementum.net/user/3785\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://parlementum.net/avatar/3785-96-20120119032323.jpeg\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://parlementum.net/user/3785'>\n\
+        Charles Roth\n\
+        (<span class=\"nickname user-text\">parlementum</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        The exuberant variety of little boats is as remarkable as the Royal Barge itself. <a href='/search?q=%23Jubilee'>#Jubilee</a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T15:10:41Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://parlementum.net/notice/2805967\" rel=\"bookmark message\" title=\"2012-06-03T15:10:41Z\"><span class=\"date-time\">2012-06-03T15:10:41</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7e11de8baf00010105d3' data-name='alpacaherder' id='update-4fcb7e11de8baf00010105d3'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://identi.ca/user/16938' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://identi.ca/user/16938\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar3.status.net/i/identica/16938-96-20090624205858.jpeg\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://identi.ca/user/16938'>\n\
+        Stephen Michael Kellat\n\
+        (<span class=\"nickname user-text\">alpacaherder</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Yeah, wasn't intending to bong the lid on the communion cup carrier stack.  Made out as if I intended that.  Looked crypto-Catholic again...\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T15:09:01Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94266389\" rel=\"bookmark message\" title=\"2012-06-03T15:09:01Z\"><span class=\"date-time\">2012-06-03T15:09:01</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7af8de8baf0001010059' data-name='parlementum' id='update-4fcb7af8de8baf0001010059'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://parlementum.net/user/3785' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://parlementum.net/user/3785\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://parlementum.net/avatar/3785-96-20120119032323.jpeg\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://parlementum.net/user/3785'>\n\
+        Charles Roth\n\
+        (<span class=\"nickname user-text\">parlementum</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        The weather on the Willamette is slightly betterthan the Thames this morning.\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:55:34Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://parlementum.net/notice/2805706\" rel=\"bookmark message\" title=\"2012-06-03T14:55:34Z\"><span class=\"date-time\">2012-06-03T14:55:34</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7893de8baf000100fb78' data-name='atomicules' id='update-4fcb7893de8baf000100fb78'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='/users/atomicules' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"/users/atomicules\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://gravatar.com/avatar/1fc29395337e8d71ace72c869e4e21e3?s=48&amp;r=r&amp;d=avatar.png\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='/users/atomicules'>\n\
+        atomicules\n\
+        (<span class=\"nickname user-text\">atomicules</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Returned home and take now wet washing off line and stick in tumble dryer. Why I ever bother trying to dry stuff on the line I do not know.\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:45:40Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fcb7893de8baf000100fb78\" rel=\"bookmark message\" title=\"2012-06-03T14:45:40Z\"><span class=\"date-time\">2012-06-03T14:45:40</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7851de8baf000100fa7e' data-name='atomicules' id='update-4fcb7851de8baf000100fa7e'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='/users/atomicules' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"/users/atomicules\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://gravatar.com/avatar/1fc29395337e8d71ace72c869e4e21e3?s=48&amp;r=r&amp;d=avatar.png\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='/users/atomicules'>\n\
+        atomicules\n\
+        (<span class=\"nickname user-text\">atomicules</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Been to local village Jubilee celebrations. Rained stopped play. Typically British weather.\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:44:34Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fcb7851de8baf000100fa7e\" rel=\"bookmark message\" title=\"2012-06-03T14:44:34Z\"><span class=\"date-time\">2012-06-03T14:44:34</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7809de8baf000100f9d6' data-name='jumax9' id='update-4fcb7809de8baf000100f9d6'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://identi.ca/user/218408' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://identi.ca/user/218408\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar3.status.net/i/identica/218408-96-20101211123634.jpeg\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://identi.ca/user/218408'>\n\
+        JumaX9 Wright\n\
+        (<span class=\"nickname user-text\">jumax9</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Pierdo tan a menudo al MP que voy a tener que empezar a tomar antidepresivos.\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:43:19Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94265881\" rel=\"bookmark message\" title=\"2012-06-03T14:43:19Z\"><span class=\"date-time\">2012-06-03T14:43:19</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7792de8baf000100f5d5' data-name='parlementum' id='update-4fcb7792de8baf000100f5d5'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://parlementum.net/user/3785' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://parlementum.net/user/3785\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://parlementum.net/avatar/3785-96-20120119032323.jpeg\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://parlementum.net/user/3785'>\n\
+        Charles Roth\n\
+        (<span class=\"nickname user-text\">parlementum</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Forced to watch the Jubilee on FOX. Are the anchors all so abysmally ignorant of the topics they cover?\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:41:07Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://parlementum.net/notice/2805497\" rel=\"bookmark message\" title=\"2012-06-03T14:41:07Z\"><span class=\"date-time\">2012-06-03T14:41:07</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb76fbde8baf000100f536' data-name='parlementum' id='update-4fcb76fbde8baf000100f536'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://parlementum.net/user/3785' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://parlementum.net/user/3785\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://parlementum.net/avatar/3785-96-20120119032323.jpeg\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://parlementum.net/user/3785'>\n\
+        Charles Roth\n\
+        (<span class=\"nickname user-text\">parlementum</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        @IdleHistorian either the books or the tv series are a delight. I am sure you will enjoy them.\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:38:28Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://parlementum.net/notice/2805434\" rel=\"bookmark message\" title=\"2012-06-03T14:38:28Z\"><span class=\"date-time\">2012-06-03T14:38:28</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7365de8baf000100ecfc' data-name='solserpiente' id='update-4fcb7365de8baf000100ecfc'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://identi.ca/user/607642' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://identi.ca/user/607642\"><img alt=\"avatar\" class=\"photo user-image\" src=\"https://secure.gravatar.com/avatar.php?gravatar_id=344de61a1685b4f3ccb35437f58adb52&amp;default=http%3A%2F%2Ftheme1.status.net%2Fneo%2Fdefault-avatar-profile.png&amp;size=96\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://identi.ca/user/607642'>\n\
+        Tony Solserpiente\n\
+        (<span class=\"nickname user-text\">solserpiente</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        solserpiente: Como empiecen a tocar a los abuelos entonces s\xC3\xAD que me v\xC3\xA1is a ver cogiendo la horca y la azada. Cabrones. <a href='http://t.co/WRpa1h3u'>http://t.co/WRpa1h3u</a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:23:31Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://twitter.com/solserpiente/statuses/209285824469151744\" rel=\"bookmark message\" title=\"2012-06-03T14:23:31Z\"><span class=\"date-time\">2012-06-03T14:23:31</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb735fde8baf000100ecf5' data-name='solserpiente' id='update-4fcb735fde8baf000100ecf5'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://identi.ca/user/607642' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://identi.ca/user/607642\"><img alt=\"avatar\" class=\"photo user-image\" src=\"https://secure.gravatar.com/avatar.php?gravatar_id=344de61a1685b4f3ccb35437f58adb52&amp;default=http%3A%2F%2Ftheme1.status.net%2Fneo%2Fdefault-avatar-profile.png&amp;size=96\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://identi.ca/user/607642'>\n\
+        Tony Solserpiente\n\
+        (<span class=\"nickname user-text\">solserpiente</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        solserpiente: @MacTrappa Como en casi todo, esto es una cuesti\xC3\xB3n de masa cr\xC3\xADtica. Si hay suficiente gente a favor, ser\xC3\xA1 imparable\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:23:20Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://twitter.com/solserpiente/statuses/209280280190652416\" rel=\"bookmark message\" title=\"2012-06-03T14:23:20Z\"><span class=\"date-time\">2012-06-03T14:23:20</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7228de8baf000100ea99' data-name='jpope' id='update-4fcb7228de8baf000100ea99'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://micro.jpope.org/user/1' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://micro.jpope.org/user/1\"><img alt=\"avatar\" class=\"photo user-image\" src=\"https://secure.gravatar.com/avatar.php?gravatar_id=e22211b8862bd536337a38d8ca1ef443&amp;default=http%3A%2F%2Fmicro.jpope.org%2Ftheme%2Fjpope%2Fdefault-avatar-profile.png&amp;size=96\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://micro.jpope.org/user/1'>\n\
+        jpope\n\
+        (<span class=\"nickname user-text\">jpope</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        I think it\xE2\x80\x99s been washed but, it did get a \xE2\x80\x9CYou\xE2\x80\x99re wearing that?\xE2\x80\x9D from the wife. :)\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:17:32Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://micro.jpope.org/notice/336520\" rel=\"bookmark message\" title=\"2012-06-03T14:17:32Z\"><span class=\"date-time\">2012-06-03T14:17:32</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb71e3de8baf000100e9b8' data-name='jpope' id='update-4fcb71e3de8baf000100e9b8'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://micro.jpope.org/user/1' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://micro.jpope.org/user/1\"><img alt=\"avatar\" class=\"photo user-image\" src=\"https://secure.gravatar.com/avatar.php?gravatar_id=e22211b8862bd536337a38d8ca1ef443&amp;default=http%3A%2F%2Fmicro.jpope.org%2Ftheme%2Fjpope%2Fdefault-avatar-profile.png&amp;size=96\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://micro.jpope.org/user/1'>\n\
+        jpope\n\
+        (<span class=\"nickname user-text\">jpope</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        There\xE2\x80\x99s not a plugin for bosh? I just had to enable the plugin for prosody.\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:16:46Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://micro.jpope.org/notice/336519\" rel=\"bookmark message\" title=\"2012-06-03T14:16:46Z\"><span class=\"date-time\">2012-06-03T14:16:46</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb7032de8baf000100e6db' data-name='jpope' id='update-4fcb7032de8baf000100e6db'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://micro.jpope.org/user/1' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://micro.jpope.org/user/1\"><img alt=\"avatar\" class=\"photo user-image\" src=\"https://secure.gravatar.com/avatar.php?gravatar_id=e22211b8862bd536337a38d8ca1ef443&amp;default=http%3A%2F%2Fmicro.jpope.org%2Ftheme%2Fjpope%2Fdefault-avatar-profile.png&amp;size=96\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://micro.jpope.org/user/1'>\n\
+        jpope\n\
+        (<span class=\"nickname user-text\">jpope</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Lazy day for sure, I slept in to 8. ;)\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:09:34Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://micro.jpope.org/notice/336516\" rel=\"bookmark message\" title=\"2012-06-03T14:09:34Z\"><span class=\"date-time\">2012-06-03T14:09:34</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb6f2fde8baf000100e52f' data-name='theru' id='update-4fcb6f2fde8baf000100e52f'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://identi.ca/user/26098' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://identi.ca/user/26098\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar.identi.ca/26098-96-20090125093912.png\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://identi.ca/user/26098'>\n\
+        Kim Rasmussen\n\
+        (<span class=\"nickname user-text\">theru</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        as pro !lo forum user @nailuj just pointed out the forum is back :)\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:05:21Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94265283\" rel=\"bookmark message\" title=\"2012-06-03T14:05:21Z\"><span class=\"date-time\">2012-06-03T14:05:21</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb6ee0de8baf000100e4cc' data-name='thp' id='update-4fcb6ee0de8baf000100e4cc'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://identi.ca/user/28928' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://identi.ca/user/28928\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar.identi.ca/28928-96-20110131123526.png\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://identi.ca/user/28928'>\n\
+        Thomas Perl\n\
+        (<span class=\"nickname user-text\">thp</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        Don't know why Uni courses advise against System.exit(). IMHO System.exit() should be the first and only statement of every Java program.\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T14:04:13Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94265268\" rel=\"bookmark message\" title=\"2012-06-03T14:04:13Z\"><span class=\"date-time\">2012-06-03T14:04:13</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        <li class='hentry message update' data-id='4fcb6dd3de8baf000100e28f' data-name='theru' id='update-4fcb6dd3de8baf000100e28f'>\n\
+        <div class='author vcard'>\n\
+        <a class='url' href='http://identi.ca/user/26098' rel='user'>\n\
+        <div class=\"avatar\"><a href=\"http://identi.ca/user/26098\"><img alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar.identi.ca/26098-96-20090125093912.png\" /></a></div>\n\
+        </a>\n\
+        <span class='fn'>\n\
+        <a class='url' href='http://identi.ca/user/26098'>\n\
+        Kim Rasmussen\n\
+        (<span class=\"nickname user-text\">theru</span>)\n\
+        </a>\n\
+        </span>\n\
+        </div>\n\
+        <div class='entry-content'>\n\
+        <span class='message-text'>\n\
+        @nailuj cheers for the head up :)\n\
+        </span>\n\
+        </div>\n\
+        <div class='info'>\n\
+        <time class=\"published\" datetime=\"2012-06-03T13:59:25Z\" pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94265151\" rel=\"bookmark message\" title=\"2012-06-03T13:59:25Z\"><span class=\"date-time\">2012-06-03T13:59:25</span></a></time>\n\
+        </div>\n\
+        <div class='actions'>\n\
+        </div>\n\
+        </li>\n\
+        </ul>\n\
+        <nav class='pagination'>\n\
+        <a class='button' href='?page=2&amp;per_page=20' id='next_button' rel='next'>\n\
+        Next &raquo;\n\
+        </a>\n\
+        </nav>\n\n\
+        </div>\n\n\n\
+        </div>\n\n\
+        </div>\n\
+        <div id='sidebar'>\n\n\
+        <div class='block'>\n\
+        <h5 class='title'>\n\
+        Join rstat.us\n\
+        </h5>\n\
+        <p>\n\
+        Sign up now and start sharing\n\
+        </p>\n\
+        <p>\n\
+        <a href='/login'>Sign up</a>\n\
+        </p>\n\
+        </div>\n\n\n\
+        </div>\n\
+        </div>\n\
+        <div id='footer'>\n\
+        <div id='footer-wrap'>\n\
+        <div id='footer-logo'>\n\
+        <a href='/'>\n\
+        rstat.us\n\
+        </a>\n\
+        </div>\n\
+        <ul class='menu' id='footer-meu'>\n\
+        <li class='home '>\n      <a href='/'>Home</a>\n    </li>\n\
+        <li class='login/signup '>\n      <a href='/login'>Login/Signup</a>\n    </li>\n\
+        <li class='open_source '>\n      <a href='/open_source'>Open Source</a>\n    </li>\n\
+        <li class='contact '>\n      <a href='/contact'>Contact</a>\n    </li>\n\n\
+        </ul>\n\n\
+        </div>\n\
+        </div>\n\n\
+        <script type=\"text/javascript\">if (!NREUMQ.f) { NREUMQ.f=function() {\n\
+        NREUMQ.push([\"load\",new Date().getTime()]);\n\
+        var e=document.createElement(\"script\");\n\
+        e.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/36/eum/rum-staging.js\";\n\
+        document.body.appendChild(e);\n\
+        if(NREUMQ.a)NREUMQ.a();\n\
+        };\n\
+        NREUMQ.a=window.onload;window.onload=NREUMQ.f;\n\
+        };\n\
+        NREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"1b64b06072\",527427,\"IF1bEhcOWQhXRxxDSQdTQQMWTlwKVlBL\",0.0,1676,new Date().getTime(),\"\",\"\",\"\",\"\",\"\"])</script></body>\n\
+        </html>\n"
+    http_version: "1.1"
+  recorded_at: Sun, 03 Jun 2012 15:21:14 GMT
+recorded_with: VCR 2.1.1
