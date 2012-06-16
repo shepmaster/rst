@@ -22,5 +22,5 @@ Feature: Help text
       |--help|
     And the output should contain:
       """
-      usage: rst [global options] command
+      usage: rst [options] command
       """

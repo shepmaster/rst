@@ -8,3 +8,7 @@ Then /^the output should contain (\d+) updates$/ do |num|
 
   non_blank_lines.size.should == num
 end
+
+Then /^the output should be the version$/ do
+  all_output.should match(/^version \d+\.\d+.\d+$/)
+end

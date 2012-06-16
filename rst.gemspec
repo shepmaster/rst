@@ -21,7 +21,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency('rake','~> 0.9.2')
   gem.add_development_dependency('vcr', '~> 2.1.1')
 
-  gem.add_dependency('gli', '~> 1.6.0')
   gem.add_dependency('typhoeus', '~> 0.3.3')
   gem.add_dependency('nokogiri', '~> 1.5.2')
 end

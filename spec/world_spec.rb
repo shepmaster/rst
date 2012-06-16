@@ -16,13 +16,13 @@ describe "world" do
 
   it "can specify a number of world updates to get" do
     Rst::Client.stubs(:messages_all).returns(["Hi", "Bye", "Yo"])
-    @cli.world(2).size.must_equal(2)
+    @cli.world(:num => 2).size.must_equal(2)
   end
 
   it "should have Rst::Statuses" do
     Rst::Client.stubs(:messages_all).returns([
       Rst::Status.new(:username => "ueoa", :text => "foo!")
     ])
-    @cli.world(1).first.to_s.must_equal("ueoa: foo!")
+    @cli.world(:num => 1).first.to_s.must_equal("ueoa: foo!")
   end
 end
