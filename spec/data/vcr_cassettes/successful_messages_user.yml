@@ -1,0 +1,709 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://rstat.us
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: ! 'OK '
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 16 Jun 2012 20:58:19 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"3467d139cfba4a4b30af0933e26b0fb2"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Runtime:
+      - '0.521055'
+      X-Rack-Cache:
+      - miss
+      Set-Cookie:
+      - _rstat.us_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWYyNWFiMDJkMTM5MWQ0ZWY1OTVmMWE2MDE4ODQ2OGI0BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMVNFaUhMdklFalJpUlFNcHJ6NVBMM2hSdGVJL1NmdnA3RFRrdDVvU2hObVE9BjsARg%3D%3D--ac2e06d5bf2befad5d0ddfd0e3deaf7cbb5a282c;
+        path=/; expires=Sat, 23-Jun-2012 20:58:19 GMT; HttpOnly
+      X-Varnish:
+      - '628458435'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: ! "<!DOCTYPE html>\n<html class='no-js' lang='en'>\n<head><script type=\"text/javascript\">var
+        NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n<meta
+        charset='utf-8'>\n<title>rstat.us</title>\n<script src=\"/assets/application-85f9725f39cb94c87fedaf584d19c2b4.js\"
+        type=\"text/javascript\"></script>\n<link href=\"/assets/application-25f42916ee009ac80dfe4dc5aea6c47e.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"SEiHLvIEjRiRQMprz5PL3hRteI/Sfvp7DTkt5oShNmQ=\"
+        name=\"csrf-token\" />\n<link href='images/mobile_icons/apple-touch-icon_114.png'
+        rel='apple-touch-icon-precomposed' sizes='114x114'>\n<link href='images/mobile_icons/apple-touch-icon_72.png'
+        rel='apple-touch-icon-precomposed' sizes='72x72'>\n<link href='images/mobile_icons/apple-touch-icon.png'
+        rel='apple-touch-icon-precomposed'>\n\n<script>\n  //<![CDATA[\n    var _gaq
+        = _gaq || [];\n    _gaq.push(['_setAccount', 'UA-22030550-1']);\n    _gaq.push(['_trackPageview']);\n
+        \   \n    (function() {\n      var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;\n      ga.src = ('https:' ==
+        document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n
+        \     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);\n
+        \   })();\n  //]]>\n</script>\n\n</head>\n\n<body id='home'>\n<div id='header-wrap'>\n<div
+        id='header'>\n<div id='logo'>\n<a href='/'>\n<h1>\nrstat.us\n</h1>\n</a>\n</div>\n<ul
+        class='menu' id='main'>\n<li class='home active'>\n      <a href='/' rel='index'>Home</a>\n
+        \   </li>\n<li class='updates '>\n      <a href='/updates' rel='messages-all'>Updates</a>\n
+        \   </li>\n<li class='search '>\n      <a href='/search' rel='messages-search'>Search</a>\n
+        \   </li>\n<li class='users '>\n      <a href='/users' rel='users-search'>Users</a>\n
+        \   </li>\n</ul>\n\n\n</div>\n</div>\n\n\n<div id='flash'>\n</div>\n\n<div
+        id='welcome'>\n<div class='wrap'>\n<div id='intro'>\n<h1>Hello.</h1>\n<h3>Welcome
+        to rstat.us</h3>\n</div>\n<div id='signup'>\n<h3>Sign in with</h3>\n<div class='twitter
+        option'>\n<a class='button' href='/auth/twitter'>\n<span class='icon twitter'></span>\nTwitter\n</a>\n</div>\n<div
+        class='username option'>\n<a class='button' href='/login'>\n<span class='icon
+        comment'></span>\nUsername\n</a>\n</div>\n</div>\n</div>\n</div>\n<div id='pitch'>\n<div
+        class='wrap'>\n<a class='col' href='/login' id='col-1'>\n<div class='content'>\n<h3>\nSign
+        Up\n</h3>\nwith Twitter or create a new account\n</div>\n<img alt=\"Slide1\"
+        src=\"/assets/slide1-5dd1b6b8ec93eb6f9d15b0d84f883231.png\" />\n</a>\n<div
+        class='col' id='col-2'>\n<div class='content'>\n<h3>\nConnect\n</h3>\nto your
+        friends and family around the world\n</div>\n<img alt=\"Slide2\" src=\"/assets/slide2-1ab49b82188ee4ddfee0e94c875e0ec9.png\"
+        />\n</div>\n<div class='col last-col' id='col-3'>\n<div class='content'>\n<h3>\nShare\n</h3>\nyour
+        thoughts in 140 characters or less\n</div>\n<img alt=\"Slide3\" src=\"/assets/slide3-cfa4a836c6cf4b2ca6eee8c2dcc8f698.png\"
+        />\n</div>\n</div>\n</div>\n<div id='page'>\n<div id='content-wrap'>\n<div
+        id='top'>\n<h3>Recent updates</h3>\n<p>What people are talking about right
+        now</p>\n</div>\n<div id='content'>\n<div class='updates'>\n<div id='messages'>\n<ul
+        class='updates' id=''>\n<li class='hentry message update' data-id='4fdcf09b44127400010020e8'
+        data-name='theru' id='update-4fdcf09b44127400010020e8'>\n<div class='author
+        vcard'>\n<a class='url' href='http://identi.ca/user/26098' rel='user'>\n<div
+        class=\"avatar\"><a href=\"http://identi.ca/user/26098\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://avatar.identi.ca/26098-96-20090125093912.png\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://identi.ca/user/26098'>\nKim
+        Rasmussen\n(<span class=\"nickname user-text\">theru</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nupdated aspell-da to
+        1.7.41 !aur\n</span>\n</div>\n<div class='info'>\n<time class=\"published\"
+        datetime=\"2012-06-16T20:46:15Z\" pubdate=\"pubdate\"><a class=\"timeago\"
+        href=\"http://identi.ca/notice/94668495\" rel=\"bookmark message\" title=\"2012-06-16T20:46:15Z\"><span
+        class=\"date-time\">2012-06-16T20:46:15</span></a></time>\n</div>\n<div class='actions'>\n</div>\n</li>\n<li
+        class='hentry message update' data-id='4fdcee0e4412740001001a96' data-name='theru'
+        id='update-4fdcee0e4412740001001a96'>\n<div class='author vcard'>\n<a class='url'
+        href='http://identi.ca/user/26098' rel='user'>\n<div class=\"avatar\"><a href=\"http://identi.ca/user/26098\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar.identi.ca/26098-96-20090125093912.png\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://identi.ca/user/26098'>\nKim
+        Rasmussen\n(<span class=\"nickname user-text\">theru</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\n!listening to Iron Maiden
+        - The ides of march\n</span>\n</div>\n<div class='info'>\n<time class=\"published\"
+        datetime=\"2012-06-16T20:35:01Z\" pubdate=\"pubdate\"><a class=\"timeago\"
+        href=\"http://identi.ca/notice/94668266\" rel=\"bookmark message\" title=\"2012-06-16T20:35:01Z\"><span
+        class=\"date-time\">2012-06-16T20:35:01</span></a></time>\n</div>\n<div class='actions'>\n</div>\n</li>\n<li
+        class='hentry message update' data-id='4fdcec4f4412740001001254' data-name='bkuhn'
+        id='update-4fdcec4f4412740001001254'>\n<div class='author vcard'>\n<a class='url'
+        href='http://identi.ca/user/7' rel='user'>\n<div class=\"avatar\"><a href=\"http://identi.ca/user/7\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar.identi.ca/7-96-20110607110945.jpeg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://identi.ca/user/7'>\nBradley
+        M. Kuhn\n(<span class=\"nickname user-text\">bkuhn</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\n@fontana,I suggest we
+        take our current conversation to IRC;It's coming too fast for me to keep up
+        here;Can you come on to !FaiFCast channel?\n</span>\n</div>\n<div class='info'>\n<time
+        class=\"published\" datetime=\"2012-06-16T20:27:42Z\" pubdate=\"pubdate\"><a
+        class=\"timeago\" href=\"http://identi.ca/notice/94668078\" rel=\"bookmark
+        message\" title=\"2012-06-16T20:27:42Z\"><span class=\"date-time\">2012-06-16T20:27:42</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fdcec364412740001001225'
+        data-name='fontana' id='update-4fdcec364412740001001225'>\n<div class='author
+        vcard'>\n<a class='url' href='http://identi.ca/user/40758' rel='user'>\n<div
+        class=\"avatar\"><a href=\"http://identi.ca/user/40758\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://avatar.identi.ca/40758-96-20110807013123.jpeg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://identi.ca/user/40758'>\nRichard
+        Fontana\n(<span class=\"nickname user-text\">fontana</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\n<a href='http://identi.ca/user/7'>@bkuhn</a>
+        Such !establishment institutions reflect the chumminess and elitism of the
+        proprietary sw industry they, in a sense, rebel against\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-16T20:27:28Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94668074\"
+        rel=\"bookmark message\" title=\"2012-06-16T20:27:28Z\"><span class=\"date-time\">2012-06-16T20:27:28</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fdceba14412740001000f67'
+        data-name='fontana' id='update-4fdceba14412740001000f67'>\n<div class='author
+        vcard'>\n<a class='url' href='http://identi.ca/user/40758' rel='user'>\n<div
+        class=\"avatar\"><a href=\"http://identi.ca/user/40758\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://avatar.identi.ca/40758-96-20110807013123.jpeg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://identi.ca/user/40758'>\nRichard
+        Fontana\n(<span class=\"nickname user-text\">fontana</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\n<a href='http://identi.ca/user/7'>@bkuhn</a>
+        I'm not even sure the <a href='/search?search=%23racketeers'>#racketeers</a>
+        would come to your aid. !establishment\n</span>\n</div>\n<div class='info'>\n<time
+        class=\"published\" datetime=\"2012-06-16T20:24:57Z\" pubdate=\"pubdate\"><a
+        class=\"timeago\" href=\"http://identi.ca/notice/94668041\" rel=\"bookmark
+        message\" title=\"2012-06-16T20:24:57Z\"><span class=\"date-time\">2012-06-16T20:24:57</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fdceb504412740001000d74'
+        data-name='bkuhn' id='update-4fdceb504412740001000d74'>\n<div class='author
+        vcard'>\n<a class='url' href='http://identi.ca/user/7' rel='user'>\n<div class=\"avatar\"><a
+        href=\"http://identi.ca/user/7\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://avatar.identi.ca/7-96-20110607110945.jpeg\" /></a></div>\n</a>\n<span
+        class='fn'>\n<a class='url' href='http://identi.ca/user/7'>\nBradley M. Kuhn\n(<span
+        class=\"nickname user-text\">bkuhn</span>)\n</a>\n</span>\n</div>\n<div class='entry-content'>\n<span
+        class='message-text'>\n<a href='http://identi.ca/user/40758'>@fontana</a>,
+        Of course, I can't help you since you can't tell me who they are. I wouldn't
+        want to entice you to violate <a href='/search?search=%23ChathamHouseRule'>#ChathamHouseRule</a>
+        ™!\n</span>\n</div>\n<div class='info'>\n<time class=\"published\" datetime=\"2012-06-16T20:23:29Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94668015\"
+        rel=\"bookmark message\" title=\"2012-06-16T20:23:29Z\"><span class=\"date-time\">2012-06-16T20:23:29</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n</ul>\n<nav class='pagination'>\n</nav>\n\n</div>\n\n</div>\n</div>\n<div
+        id='bottom'>\n<div class='login'>\n<a href='/login'>\nJoin the conversation\n</a>\n</div>\n<div
+        class='read-more'>\n<a href='/updates' rel='messages-all'>\nmore...\n</a>\n</div>\n</div>\n</div>\n<div
+        id='sidebar'>\n<div id='manifesto'>\n<h3>rstat.us?</h3>\n\n<p>Microblogging
+        has taken the world by storm. Millions of people around the world now share
+        their thoughts with friends, family, and random strangers every day. Links
+        are shared, stories are told, and events are discussed. rstatus is the newest
+        place to participate in the collective conscious of the planet.</p>\n\n<h3>What's
+        different about it?</h3>\n\n<p>There are two things that make rstat.us special:
+        <em>simplicity</em> and <em>openness</em>.</p>\n\n<p><strong>Simplicity</strong>
+        is a core 'feature' of rstat.us. We pride ourselves on saying 'no' to lots
+        of features. Our interface is clean, and easy to understand. We give you just
+        enough features to be interesting, but not enough to be complicated and confusing.</p>\n\n<p>If
+        you're a software developer, you'll probably want to check out our <a href=\"/open_source\">Open
+        Source page</a>. If that's greek to you, here's the deal on <strong>Openness</strong>:
+        the programming code that makes up rstat.us is available for anyone to download,
+        free of charge. Programmers can use that code to run their own websites just
+        like rstat.us, and you can subscribe to your friends on any site that supports
+        the <a href=\"http://ostatus.org/about\">OStatus protocol</a>, like <a href=\"http://identi.ca/\">identi.ca</a>.
+        This also means that you can own your data, we'll never stop you from having
+        full access to everything you've put into rstat.us.</p>\n\n<p>- The <strong>rstat.us</strong>
+        team</p>\n</div>\n</div>\n</div>\n<div id='footer'>\n<div id='footer-wrap'>\n<div
+        id='footer-logo'>\n<a href='/'>\nrstat.us\n</a>\n</div>\n<ul class='menu'
+        id='footer-meu'>\n<li class='home active'>\n      <a href='/'>Home</a>\n    </li>\n<li
+        class='login/signup '>\n      <a href='/login'>Login/Signup</a>\n    </li>\n<li
+        class='open_source '>\n      <a href='/open_source'>Open Source</a>\n    </li>\n<li
+        class='contact '>\n      <a href='/contact'>Contact</a>\n    </li>\n\n</ul>\n\n</div>\n</div>\n\n<script
+        type=\"text/javascript\">if (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new
+        Date().getTime()]);\nvar e=document.createElement(\"script\");\ne.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/39/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"1b64b06072\",527427,\"IF1bEhcOWQhXRxxFTQJGXAVKCVoJV0VSUVw=\",0.0,519,new
+        Date().getTime(),\"\",\"\",\"\",\"\",\"\"])</script></body>\n</html>\n"
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2012 20:58:21 GMT
+- request:
+    method: get
+    uri: http://rstat.us/users
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: ! 'OK '
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 16 Jun 2012 20:58:21 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"deddd8ecbdae2c53bdc3aca655152aa8"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Runtime:
+      - '0.007507'
+      X-Rack-Cache:
+      - miss
+      Set-Cookie:
+      - _rstat.us_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTk3Mjg2NTUyMDg2ODRmOGRiOTk5MGE5ZTAyYTljYzYzBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUI2RGNZR3JPUVZWQThScHczMmxOb2FnZEcyV1VaQkdHTUVpdE5tV1UyTUE9BjsARg%3D%3D--f6234aa315b7cd80ef98b9a65930bbbfa3709313;
+        path=/; expires=Sat, 23-Jun-2012 20:58:21 GMT; HttpOnly
+      X-Varnish:
+      - '1504924574'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: ! "<!DOCTYPE html>\n<html class='no-js' lang='en'>\n<head><script type=\"text/javascript\">var
+        NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n<meta
+        charset='utf-8'>\n<title>users - rstat.us</title>\n<script src=\"/assets/application-85f9725f39cb94c87fedaf584d19c2b4.js\"
+        type=\"text/javascript\"></script>\n<link href=\"/assets/application-25f42916ee009ac80dfe4dc5aea6c47e.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"B6DcYGrOQVVA8Rpw32lNoagdG2WUZBGGMEitNmWU2MA=\"
+        name=\"csrf-token\" />\n<link href='images/mobile_icons/apple-touch-icon_114.png'
+        rel='apple-touch-icon-precomposed' sizes='114x114'>\n<link href='images/mobile_icons/apple-touch-icon_72.png'
+        rel='apple-touch-icon-precomposed' sizes='72x72'>\n<link href='images/mobile_icons/apple-touch-icon.png'
+        rel='apple-touch-icon-precomposed'>\n\n<script>\n  //<![CDATA[\n    var _gaq
+        = _gaq || [];\n    _gaq.push(['_setAccount', 'UA-22030550-1']);\n    _gaq.push(['_trackPageview']);\n
+        \   \n    (function() {\n      var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;\n      ga.src = ('https:' ==
+        document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n
+        \     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);\n
+        \   })();\n  //]]>\n</script>\n\n</head>\n\n<body>\n<div id='header-wrap'>\n<div
+        id='header'>\n<div id='logo'>\n<a href='/'>\n<h1>\nrstat.us\n</h1>\n</a>\n</div>\n<ul
+        class='menu' id='main'>\n<li class='home '>\n      <a href='/' rel='index'>Home</a>\n
+        \   </li>\n<li class='updates '>\n      <a href='/updates' rel='messages-all'>Updates</a>\n
+        \   </li>\n<li class='search '>\n      <a href='/search' rel='messages-search'>Search</a>\n
+        \   </li>\n<li class='users active'>\n      <a href='/users' rel='users-search'>Users</a>\n
+        \   </li>\n</ul>\n\n\n</div>\n</div>\n\n\n<div id='page'>\n<div id='content-wrap'>\n<h2
+        class='title'>Users\n</h2>\n<div id='top'>\n<div id='flash'>\n</div>\n\n<div
+        class='search' id='users-search'>\n<form action='/users' class='users-search'
+        method='get'>\n<input name='search' type='text'>\n<input class='button' type='submit'
+        value='Search'>\n</form>\n</div>\n\n</div>\n<div id='content'>\n<div class='empty'>\nSorry,
+        no users that match.\n</div>\n<nav class='pagination'>\n</nav>\n\n\n</div>\n\n</div>\n<div
+        id='sidebar'>\n\n<div class='block'>\n<h5 class='title'>\nJoin rstat.us\n</h5>\n<p>\nSign
+        up now and start sharing\n</p>\n<p>\n<a href='/login'>Sign up</a>\n</p>\n</div>\n\n\n</div>\n</div>\n<div
+        id='footer'>\n<div id='footer-wrap'>\n<div id='footer-logo'>\n<a href='/'>\nrstat.us\n</a>\n</div>\n<ul
+        class='menu' id='footer-meu'>\n<li class='home '>\n      <a href='/'>Home</a>\n
+        \   </li>\n<li class='login/signup '>\n      <a href='/login'>Login/Signup</a>\n
+        \   </li>\n<li class='open_source '>\n      <a href='/open_source'>Open Source</a>\n
+        \   </li>\n<li class='contact '>\n      <a href='/contact'>Contact</a>\n    </li>\n\n</ul>\n\n</div>\n</div>\n\n<script
+        type=\"text/javascript\">if (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new
+        Date().getTime()]);\nvar e=document.createElement(\"script\");\ne.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/39/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"1b64b06072\",527427,\"IF1bEhcOWQhXRxxDSgZARkkMD1EBSg==\",0.0,6,new
+        Date().getTime(),\"\",\"\",\"\",\"\",\"\"])</script></body>\n</html>\n"
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2012 20:58:22 GMT
+- request:
+    method: get
+    uri: http://rstat.us/users?search=carols10cents
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: ! 'OK '
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 16 Jun 2012 20:58:22 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"0940ad9c7c05cd5d5fca0ff8801883f3"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Runtime:
+      - '0.109586'
+      X-Rack-Cache:
+      - miss
+      Set-Cookie:
+      - _rstat.us_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTY5MDZhMzMzNzY5MGU2ZWE5MDQwY2I3NmIxOGU0YTc1BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMWZDbCtFTWN4bDVjRnk0SUFsa2lmQ3FLMW9KSUlvSjIwU2g4d3FtYlRDSFU9BjsARg%3D%3D--a6b58af407b2052f27dcb7640a1bdc2d23539471;
+        path=/; expires=Sat, 23-Jun-2012 20:58:22 GMT; HttpOnly
+      X-Varnish:
+      - '1312413791'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: ! "<!DOCTYPE html>\n<html class='no-js' lang='en'>\n<head><script type=\"text/javascript\">var
+        NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n<meta
+        charset='utf-8'>\n<title>users - rstat.us</title>\n<script src=\"/assets/application-85f9725f39cb94c87fedaf584d19c2b4.js\"
+        type=\"text/javascript\"></script>\n<link href=\"/assets/application-25f42916ee009ac80dfe4dc5aea6c47e.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"fCl+EMcxl5cFy4IAlkifCqK1oJIIoJ20Sh8wqmbTCHU=\"
+        name=\"csrf-token\" />\n<link href='images/mobile_icons/apple-touch-icon_114.png'
+        rel='apple-touch-icon-precomposed' sizes='114x114'>\n<link href='images/mobile_icons/apple-touch-icon_72.png'
+        rel='apple-touch-icon-precomposed' sizes='72x72'>\n<link href='images/mobile_icons/apple-touch-icon.png'
+        rel='apple-touch-icon-precomposed'>\n\n<script>\n  //<![CDATA[\n    var _gaq
+        = _gaq || [];\n    _gaq.push(['_setAccount', 'UA-22030550-1']);\n    _gaq.push(['_trackPageview']);\n
+        \   \n    (function() {\n      var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;\n      ga.src = ('https:' ==
+        document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n
+        \     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);\n
+        \   })();\n  //]]>\n</script>\n\n</head>\n\n<body>\n<div id='header-wrap'>\n<div
+        id='header'>\n<div id='logo'>\n<a href='/'>\n<h1>\nrstat.us\n</h1>\n</a>\n</div>\n<ul
+        class='menu' id='main'>\n<li class='home '>\n      <a href='/' rel='index'>Home</a>\n
+        \   </li>\n<li class='updates '>\n      <a href='/updates' rel='messages-all'>Updates</a>\n
+        \   </li>\n<li class='search '>\n      <a href='/search' rel='messages-search'>Search</a>\n
+        \   </li>\n<li class='users active'>\n      <a href='/users' rel='users-search'>Users</a>\n
+        \   </li>\n</ul>\n\n\n</div>\n</div>\n\n\n<div id='page'>\n<div id='content-wrap'>\n<h2
+        class='title'>Users\n</h2>\n<div id='top'>\n<div id='flash'>\n</div>\n\n<div
+        class='search' id='users-search'>\n<form action='/users' class='users-search'
+        method='get'>\n<input name='search' type='text' value='carols10cents'>\n<input
+        class='button' type='submit' value='Search'>\n</form>\n</div>\n\n</div>\n<div
+        id='content'>\n<div id='users'>\n<ul class='search user-list'>\n<li class='even
+        user'>\n<div class=\"avatar\"><a href=\"/users/Carols10cents\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/Carols10cents' rel='user
+        messages'>\n<b>\nCarol Nichols\n</b>\n(<span class=\"user-text\">Carols10cents</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\n✔ *Burgh Verified*\r\n                  \r\nI
+        love Ruby, Rails, user testing, Pittsburgh, typography, web development, linguistics,
+        clarinet, and cats....\n</span>\n</div>\n</div>\n</li>\n<li class='odd user'>\n<div
+        class=\"avatar\"><a href=\"/users/carols10cents_t\"><img alt=\"avatar\" class=\"photo
+        user-image\" src=\"/assets/avatar-4c17564dad5a7f7452a9c0923a91ab21.png\" /></a></div>\n<div
+        class='info'>\n<a href='/users/carols10cents_t' rel='user messages'>\n<b>\ncarols10cents_t\n</b>\n(<span
+        class=\"user-text\">carols10cents_t</span>)\n</a>\n<div class='bio'>\n<span
+        class='description'>\n\n</span>\n</div>\n</div>\n</li>\n</ul>\n</div>\n\n<nav
+        class='pagination'>\n</nav>\n\n\n</div>\n\n</div>\n<div id='sidebar'>\n\n<div
+        class='block'>\n<h5 class='title'>\nJoin rstat.us\n</h5>\n<p>\nSign up now
+        and start sharing\n</p>\n<p>\n<a href='/login'>Sign up</a>\n</p>\n</div>\n\n\n</div>\n</div>\n<div
+        id='footer'>\n<div id='footer-wrap'>\n<div id='footer-logo'>\n<a href='/'>\nrstat.us\n</a>\n</div>\n<ul
+        class='menu' id='footer-meu'>\n<li class='home '>\n      <a href='/'>Home</a>\n
+        \   </li>\n<li class='login/signup '>\n      <a href='/login'>Login/Signup</a>\n
+        \   </li>\n<li class='open_source '>\n      <a href='/open_source'>Open Source</a>\n
+        \   </li>\n<li class='contact '>\n      <a href='/contact'>Contact</a>\n    </li>\n\n</ul>\n\n</div>\n</div>\n\n<script
+        type=\"text/javascript\">if (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new
+        Date().getTime()]);\nvar e=document.createElement(\"script\");\ne.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/39/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"1b64b06072\",527427,\"IF1bEhcOWQhXRxxDSgZARkkMD1EBSg==\",0.0,108,new
+        Date().getTime(),\"\",\"\",\"\",\"\",\"\"])</script></body>\n</html>\n"
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2012 20:58:22 GMT
+- request:
+    method: get
+    uri: http://rstat.us/users/Carols10cents
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: ! 'OK '
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 16 Jun 2012 20:58:23 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Link:
+      - </users/Carols10cents/xrd.xml>; rel="lrdd"; type="application/xrd+xml"
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"97c00219787ef4f6516c004620eef6ba"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Runtime:
+      - '1.014458'
+      X-Rack-Cache:
+      - miss
+      Set-Cookie:
+      - _rstat.us_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWFmZjQxODI0MWQ1M2Q4NTFjNTc4M2FlZWM0YTQxYjM4BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUE1cnRkbzkzNHBESGZMSXhPUmtrckVsd2V5NmhJWjRrQVVwSHNnR2xmcnc9BjsARg%3D%3D--ad6b0d44807a6637082681f1abe376302497dd90;
+        path=/; expires=Sat, 23-Jun-2012 20:58:23 GMT; HttpOnly
+      X-Varnish:
+      - '2087327110'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: ! "<!DOCTYPE html>\n<html class='no-js' lang='en'>\n<head><script type=\"text/javascript\">var
+        NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n<meta
+        charset='utf-8'>\n<title>Carols10cents - rstat.us</title>\n<link href='/users/Carols10cents/feed'
+        rel='alternate' title='OStatus Feed for Carols10cents' type='application/atom+xml'>\n<script
+        src=\"/assets/application-85f9725f39cb94c87fedaf584d19c2b4.js\" type=\"text/javascript\"></script>\n<link
+        href=\"/assets/application-25f42916ee009ac80dfe4dc5aea6c47e.css\" media=\"screen\"
+        rel=\"stylesheet\" type=\"text/css\" />\n<meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"A5rtdo934pDHfLIxORkkrElwey6hIZ4kAUpHsgGlfrw=\"
+        name=\"csrf-token\" />\n<link href='images/mobile_icons/apple-touch-icon_114.png'
+        rel='apple-touch-icon-precomposed' sizes='114x114'>\n<link href='images/mobile_icons/apple-touch-icon_72.png'
+        rel='apple-touch-icon-precomposed' sizes='72x72'>\n<link href='images/mobile_icons/apple-touch-icon.png'
+        rel='apple-touch-icon-precomposed'>\n\n<script>\n  //<![CDATA[\n    var _gaq
+        = _gaq || [];\n    _gaq.push(['_setAccount', 'UA-22030550-1']);\n    _gaq.push(['_trackPageview']);\n
+        \   \n    (function() {\n      var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;\n      ga.src = ('https:' ==
+        document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n
+        \     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);\n
+        \   })();\n  //]]>\n</script>\n\n</head>\n\n<body>\n<div id='header-wrap'>\n<div
+        id='header'>\n<div id='logo'>\n<a href='/'>\n<h1>\nrstat.us\n</h1>\n</a>\n</div>\n<ul
+        class='menu' id='main'>\n<li class='home '>\n      <a href='/' rel='index'>Home</a>\n
+        \   </li>\n<li class='updates '>\n      <a href='/updates' rel='messages-all'>Updates</a>\n
+        \   </li>\n<li class='search '>\n      <a href='/search' rel='messages-search'>Search</a>\n
+        \   </li>\n<li class='users '>\n      <a href='/users' rel='users-search'>Users</a>\n
+        \   </li>\n</ul>\n\n\n</div>\n</div>\n\n\n<div id='page'>\n<div id='content-wrap'>\n<div
+        id='top'>\n<div id='flash'>\n</div>\n\n<div class='vcard' id='profile'>\n<div
+        id='users'>\n<ul class='single'>\n<li class='user'>\n<h3 class='fn'>\n<span
+        class='user-name'>Carol Nichols</span>\n</h3>\n<div class='nickname'>@<span
+        class=\"user-text\">Carols10cents</span></div>\n<div class='follow-wrap'>\n<div
+        id='follow'>\n</div>\n</div>\n<div class='info'>\n<div class='website'>\n<a
+        href=\"http://carol-nichols.com\" class=\"url\" rel=\"website\">http://carol-nichols.com</a>\n</div>\n<p
+        class='note'>\n<span class='description'>✔ *Burgh Verified*\r\n                  \r\nI
+        love Ruby, Rails, user testing, Pittsburgh, typography, web development, linguistics,
+        clarinet, and cats....</span>\n</p>\n</div>\n<ul class='stats'>\n<li class='update-count'>\n<div
+        class='icon'></div>\n<a href='#profile_updates'>241</a>\nUpdates\n</li>\n<li
+        class='following-count'>\n<div class='icon'></div>\n<a href='/users/Carols10cents/following'>38</a>\nFollowing\n</li>\n<li
+        class='follower-count'>\n<div class='icon'></div>\n<a href='/users/Carols10cents/followers'>44</a>\nFollowers\n</li>\n</ul>\n</li>\n</ul>\n</div>\n</div>\n\n</div>\n<div
+        id='content'>\n<div id='messages'>\n<ul class='messages-user updates' id='profile_updates'>\n<li
+        class='hentry message update' data-id='4fdc8b5ec5e2a5000101b13a' data-name='Carols10cents'
+        id='update-4fdc8b5ec5e2a5000101b13a'>\n<div class='author vcard'>\n<a class='url'
+        href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a href=\"/users/Carols10cents\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nOne person's <a href='/search?search=%23firstworldproblems'>#firstworldproblems</a>:
+        <a href='http://qkme.me/3pok5j'>http://qkme.me/3pok5j</a> is another's success
+        kid: <a href='http://qkme.me/3poday'>http://qkme.me/3poday</a>\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-16T13:34:23Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fdc8b5ec5e2a5000101b13a\"
+        rel=\"bookmark message\" title=\"2012-06-16T13:34:23Z\"><span class=\"date-time\">2012-06-16T13:34:23</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fdb32613127950001006689'
+        data-name='Carols10cents' id='update-4fdb32613127950001006689'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nMy new superpower: convincing
+        other people they should shave yaks.\n</span>\n</div>\n<div class='info'>\n<time
+        class=\"published\" datetime=\"2012-06-15T13:02:25Z\" pubdate=\"pubdate\"><a
+        class=\"timeago\" href=\"/updates/4fdb32613127950001006689\" rel=\"bookmark
+        message\" title=\"2012-06-15T13:02:25Z\"><span class=\"date-time\">2012-06-15T13:02:25</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fda868479fab1000101a60e'
+        data-name='Carols10cents' id='update-4fda868479fab1000101a60e'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\ntonight in the <a href='/search?search=%23mendicant'>#mendicant</a>
+        hackfest: adventures in OSS skype alternatives! <a href='http://i.imgur.com/EWs31.jpg'>http://i.imgur.com/EWs31.jpg</a>\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-15T00:49:08Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fda868479fab1000101a60e\"
+        rel=\"bookmark message\" title=\"2012-06-15T00:49:08Z\"><span class=\"date-time\">2012-06-15T00:49:08</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fda70d479fab10001016bb1'
+        data-name='Carols10cents' id='update-4fda70d479fab10001016bb1'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nCHECK IT OUT RSTAT.US
+        HAS SPAMMERS!!!!! <a href='http://rstat.us/users/Mats4Floor'>http://rstat.us/users/Mats4Floor</a>
+        WE'RE REAL NOW!!!\n</span>\n</div>\n<div class='info'>\n<time class=\"published\"
+        datetime=\"2012-06-14T23:16:36Z\" pubdate=\"pubdate\"><a class=\"timeago\"
+        href=\"/updates/4fda70d479fab10001016bb1\" rel=\"bookmark message\" title=\"2012-06-14T23:16:36Z\"><span
+        class=\"date-time\">2012-06-14T23:16:36</span></a></time>\n</div>\n<div class='actions'>\n</div>\n</li>\n<li
+        class='hentry message update' data-id='4fda437d79fab100010111d5' data-name='Carols10cents'
+        id='update-4fda437d79fab100010111d5'>\n<div class='author vcard'>\n<a class='url'
+        href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a href=\"/users/Carols10cents\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nThursdays are the new
+        Mondays :(\n</span>\n</div>\n<div class='info'>\n<time class=\"published\"
+        datetime=\"2012-06-14T20:03:10Z\" pubdate=\"pubdate\"><a class=\"timeago\"
+        href=\"/updates/4fda437d79fab100010111d5\" rel=\"bookmark message\" title=\"2012-06-14T20:03:10Z\"><span
+        class=\"date-time\">2012-06-14T20:03:10</span></a></time>\n</div>\n<div class='actions'>\n</div>\n</li>\n<li
+        class='hentry message update' data-id='4fd9ff6a79fab10001008941' data-name='Carols10cents'
+        id='update-4fd9ff6a79fab10001008941'>\n<div class='author vcard'>\n<a class='url'
+        href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a href=\"/users/Carols10cents\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\n&quot;Mysql::Error: MySQL
+        server has gone away&quot; COME BACK, MYSQL!!!! Where did you go??? Bring
+        back, bring back, bring back mysql to me...\n</span>\n</div>\n<div class='info'>\n<time
+        class=\"published\" datetime=\"2012-06-14T15:12:42Z\" pubdate=\"pubdate\"><a
+        class=\"timeago\" href=\"/updates/4fd9ff6a79fab10001008941\" rel=\"bookmark
+        message\" title=\"2012-06-14T15:12:42Z\"><span class=\"date-time\">2012-06-14T15:12:42</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fd412c889a3c7000101c674'
+        data-name='Carols10cents' id='update-4fd412c889a3c7000101c674'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nWooo!! 9 WNY.rb-ers coming
+        to <a href='http://rstat.us/users/steelcityruby'>@SteelCityRuby</a>! <a href='http://www.meetup.com/Western-New-York-Ruby/events/67980262/'>http://www.meetup.com/Western-New-York-Ruby/events/67980262/</a>\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-10T03:21:45Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fd412c889a3c7000101c674\"
+        rel=\"bookmark message\" title=\"2012-06-10T03:21:45Z\"><span class=\"date-time\">2012-06-10T03:21:45</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fd2757f1b96690001017180'
+        data-name='Carols10cents' id='update-4fd2757f1b96690001017180'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nRoot, root, root for
+        our home team, a new Pirates generation everybody yell LET'S GO BUCS! <a href='/search?search=%23raiseit'>#raiseit</a>\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-08T21:58:23Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fd2757f1b96690001017180\"
+        rel=\"bookmark message\" title=\"2012-06-08T21:58:23Z\"><span class=\"date-time\">2012-06-08T21:58:23</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fd260d91b966900010140b1'
+        data-name='Carols10cents' id='update-4fd260d91b966900010140b1'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nWrote my members of <a
+        href='/search?search=%23Congress'>#Congress</a> on @opencongress about Legislative
+        rules and procedure: <a href='http://bit.ly/JStKV1'>http://bit.ly/JStKV1</a>
+        <a href='/search?search=%23freeTHOMAS'>#freeTHOMAS</a>\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-08T20:30:17Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fd260d91b966900010140b1\"
+        rel=\"bookmark message\" title=\"2012-06-08T20:30:17Z\"><span class=\"date-time\">2012-06-08T20:30:17</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fd1120e8a618400010166ce'
+        data-name='Carols10cents' id='update-4fd1120e8a618400010166ce'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\n&quot;zapateria&quot;
+        is undefined for &quot; Shoe &quot;\n</span>\n</div>\n<div class='info'>\n<time
+        class=\"published\" datetime=\"2012-06-07T20:41:50Z\" pubdate=\"pubdate\"><a
+        class=\"timeago\" href=\"/updates/4fd1120e8a618400010166ce\" rel=\"bookmark
+        message\" title=\"2012-06-07T20:41:50Z\"><span class=\"date-time\">2012-06-07T20:41:50</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fd111fd8a6184000101657b'
+        data-name='Carols10cents' id='update-4fd111fd8a6184000101657b'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\ngo delta in the day!\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-07T20:41:34Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fd111fd8a6184000101657b\"
+        rel=\"bookmark message\" title=\"2012-06-07T20:41:34Z\"><span class=\"date-time\">2012-06-07T20:41:34</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fcfa51cc9cd04000101487b'
+        data-name='Carols10cents' id='update-4fcfa51cc9cd04000101487b'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nIt turns out shaved yaks
+        are pretty ugly.\n</span>\n</div>\n<div class='info'>\n<time class=\"published\"
+        datetime=\"2012-06-06T18:44:45Z\" pubdate=\"pubdate\"><a class=\"timeago\"
+        href=\"/updates/4fcfa51cc9cd04000101487b\" rel=\"bookmark message\" title=\"2012-06-06T18:44:45Z\"><span
+        class=\"date-time\">2012-06-06T18:44:45</span></a></time>\n</div>\n<div class='actions'>\n</div>\n</li>\n<li
+        class='hentry message update' data-id='4fcf7a74c9cd04000100e176' data-name='Carols10cents'
+        id='update-4fcf7a74c9cd04000100e176'>\n<div class='author vcard'>\n<a class='url'
+        href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a href=\"/users/Carols10cents\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nFirebug is on github
+        now!!! <a href='https://hacks.mozilla.org/2012/03/firebug-is-now-on-github-go-learn-and-contribute/'>https://hacks.mozilla.org/2012/03/firebug-is-now-on-github-go-learn-and-contribute/</a>\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-06T15:42:44Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fcf7a74c9cd04000100e176\"
+        rel=\"bookmark message\" title=\"2012-06-06T15:42:44Z\"><span class=\"date-time\">2012-06-06T15:42:44</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fccde5e17d91f00010110fb'
+        data-name='Carols10cents' id='update-4fccde5e17d91f00010110fb'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nTrying to do something
+        in python today... <a href='http://img.izismile.com/img/img5/20120417/640/i_have_no_idea_what_im_doing_meme_640_17.jpg'>http://img.izismile.com/img/img5/20120417/640/i_have_no_idea_what_im_doing_meme_640_17.jpg</a>\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-04T16:12:14Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fccde5e17d91f00010110fb\"
+        rel=\"bookmark message\" title=\"2012-06-04T16:12:14Z\"><span class=\"date-time\">2012-06-04T16:12:14</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fcbd02ede8baf000101acb5'
+        data-name='Carols10cents' id='update-4fcbd02ede8baf000101acb5'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nTotally going to the
+        pirates game on Friday just to get this awesome shirt: <a href='http://is.gd/H9Pl4j'>http://is.gd/H9Pl4j</a>
+        Anyone else want to come with me?\n</span>\n</div>\n<div class='info'>\n<time
+        class=\"published\" datetime=\"2012-06-03T20:59:27Z\" pubdate=\"pubdate\"><a
+        class=\"timeago\" href=\"/updates/4fcbd02ede8baf000101acb5\" rel=\"bookmark
+        message\" title=\"2012-06-03T20:59:27Z\"><span class=\"date-time\">2012-06-03T20:59:27</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fc61ec9e0aae0000100f131'
+        data-name='Carols10cents' id='update-4fc61ec9e0aae0000100f131'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nI posted to the <a href='http://rstat.us/users/steelcityruby'>@SteelCityRuby</a>
+        blog yesterday: Stop the Celebrity Worship <a href='http://is.gd/ReTCW8'>http://is.gd/ReTCW8</a>\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-05-30T13:21:14Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fc61ec9e0aae0000100f131\"
+        rel=\"bookmark message\" title=\"2012-05-30T13:21:14Z\"><span class=\"date-time\">2012-05-30T13:21:14</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fc4ecc8b514da000101146b'
+        data-name='Carols10cents' id='update-4fc4ecc8b514da000101146b'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nI smell feet\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-05-29T15:35:37Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fc4ecc8b514da000101146b\"
+        rel=\"bookmark message\" title=\"2012-05-29T15:35:37Z\"><span class=\"date-time\">2012-05-29T15:35:37</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fc4e583b514da0001010977'
+        data-name='Carols10cents' id='update-4fc4e583b514da0001010977'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\n&quot;Does anyone know
+        whom we're supposed to contact when the peacocks escape from the zoo?&quot;\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-05-29T15:04:35Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fc4e583b514da0001010977\"
+        rel=\"bookmark message\" title=\"2012-05-29T15:04:35Z\"><span class=\"date-time\">2012-05-29T15:04:35</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fbfdf0b8f55a3000101d442'
+        data-name='Carols10cents' id='update-4fbfdf0b8f55a3000101d442'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nDoing my favorite thing
+        this afternoon-- deleting code!!!! \\o/\n</span>\n</div>\n<div class='info'>\n<time
+        class=\"published\" datetime=\"2012-05-25T19:35:40Z\" pubdate=\"pubdate\"><a
+        class=\"timeago\" href=\"/updates/4fbfdf0b8f55a3000101d442\" rel=\"bookmark
+        message\" title=\"2012-05-25T19:35:40Z\"><span class=\"date-time\">2012-05-25T19:35:40</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fbfd79c8f55a3000101c750'
+        data-name='Carols10cents' id='update-4fbfd79c8f55a3000101c750'>\n<div class='author
+        vcard'>\n<a class='url' href='/users/Carols10cents' rel='user'>\n<div class=\"avatar\"><a
+        href=\"/users/Carols10cents\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
+        Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nIt's the music, stupid.\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-05-25T19:03:57Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fbfd79c8f55a3000101c750\"
+        rel=\"bookmark message\" title=\"2012-05-25T19:03:57Z\"><span class=\"date-time\">2012-05-25T19:03:57</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n</ul>\n<nav class='pagination'>\n<a class='button'
+        href='?page=2&amp;per_page=20' id='next_button' rel='next'>\nNext &raquo;\n</a>\n</nav>\n\n</div>\n\n\n</div>\n\n</div>\n<div
+        id='sidebar'>\n\n<div class='block'>\n<h5 class='title'>\nJoin rstat.us\n</h5>\n<p>\nSign
+        up now and start sharing\n</p>\n<p>\n<a href='/login'>Sign up</a>\n</p>\n</div>\n\n\n</div>\n</div>\n<div
+        id='footer'>\n<div id='footer-wrap'>\n<div id='footer-logo'>\n<a href='/'>\nrstat.us\n</a>\n</div>\n<ul
+        class='menu' id='footer-meu'>\n<li class='home '>\n      <a href='/'>Home</a>\n
+        \   </li>\n<li class='login/signup '>\n      <a href='/login'>Login/Signup</a>\n
+        \   </li>\n<li class='open_source '>\n      <a href='/open_source'>Open Source</a>\n
+        \   </li>\n<li class='contact '>\n      <a href='/contact'>Contact</a>\n    </li>\n\n</ul>\n\n</div>\n</div>\n\n<script
+        type=\"text/javascript\">if (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new
+        Date().getTime()]);\nvar e=document.createElement(\"script\");\ne.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/39/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"1b64b06072\",527427,\"IF1bEhcOWQhXRxxDSgZARkkWCVoT\",0.0,1013,new
+        Date().getTime(),\"\",\"\",\"\",\"\",\"\"])</script></body>\n</html>\n"
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2012 20:58:23 GMT
+recorded_with: VCR 2.1.1

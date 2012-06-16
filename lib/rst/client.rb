@@ -30,6 +30,50 @@ module Rst
 
     end
 
+    def messages_user(params = {})
+      root_response = Nokogiri::HTML.parse(
+        Typhoeus::Request.get(base_uri).body
+      )
+
+      users_search_link = root_response.xpath(
+        "//a[contains(@rel, 'users-search')]"
+      ).first
+
+      users_search_url = (URI(base_uri) + URI(users_search_link["href"])).to_s
+
+      users_search_response = Nokogiri::HTML.parse(
+        Typhoeus::Request.get(users_search_url).body
+      )
+
+      form = users_search_response.css("form.users-search").first
+      search_url = (URI(base_uri) + URI(form["action"])).to_s
+
+      user_lookup_query = "#{search_url}?search=#{params[:username]}"
+
+      user_lookup_response = Nokogiri::HTML.parse(
+        Typhoeus::Request.get(user_lookup_query).body
+      )
+
+      search_results = user_lookup_response.css("div#users ul.search li.user")
+
+      result = search_results.detect { |sr|
+        sr.css("span.user-text").first.text.strip.match(/^#{params[:username]}$/i)
+      }
+
+      user_link = result.xpath(".//a[contains(@rel, 'user')]").first
+
+      user_url = (URI(base_uri) + URI(user_link["href"])).to_s
+
+      user_response = Nokogiri::HTML.parse(
+        Typhoeus::Request.get(user_url).body
+      )
+
+      messages = user_response.css("div#messages ul.messages-user li").map { |li|
+                   Rst::Status.parse(li)
+                 }
+
+    end
+
     def hydra
       Typhoeus::Hydra.hydra
     end
