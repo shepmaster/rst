@@ -15,6 +15,10 @@ Commands:
 
 Options:"
 
+  opts.on("-n NUMBER", "The number of statuses to show") do |n|
+    options[:num] = n.to_i
+  end
+
   opts.on_tail("-h", "--help", "Show this message") do
     puts opts
     exit
