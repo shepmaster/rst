@@ -16,7 +16,11 @@ module Rst
 
       while statuses.size < num do
         page += 1
-        statuses.concat Rst::Client.messages_all(:page => page)
+        messages = Rst::Client.messages_all(:page => page)
+
+        break if messages.empty?
+
+        statuses.concat messages
       end
 
       statuses.take(num)
