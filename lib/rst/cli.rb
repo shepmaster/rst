@@ -3,9 +3,15 @@ module Rst
     extend self
 
     def run(args = [], options = {})
-      if args.first == "world"
+      if args[0] == "world"
         updates = world(options)
         puts updates.join("\n\n")
+      elsif args[0] == "user"
+        if args[1]
+        else
+          puts "Username is required."
+          exit 1
+        end
       end
     end
 

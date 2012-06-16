@@ -11,6 +11,7 @@ usage: rst [options] command
 
 Commands:
     help [COMMAND]    Get more help for a partiular command.
+    user [USERNAME]   See one particular user's updates.
     world             See the latest updates that anyone has made.
 
 Options:"
