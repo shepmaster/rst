@@ -44,15 +44,19 @@ describe "Rst::CLI" do
 
       Rst::Client.expects(:messages_user).
                   once.
-                  with(username, {:page => 1}).
+                  with({:username => username, :page => 1}).
                   returns(page_of_updates)
 
-      @cli.user(username).size.must_equal(20)
+      @cli.user({}, [username]).size.must_equal(20)
     end
 
     it "can specify a number of one user's updates to get" do
       Rst::Client.stubs(:messages_user).returns(["Hi", "Bye", "Yo"])
-      @cli.user(username, :num => 2).size.must_equal(2)
+      @cli.user({:num => 2}, username).size.must_equal(2)
+    end
+
+    it "requires a username" do
+      lambda { @cli.user }.must_raise(RuntimeError)
     end
 
   end
