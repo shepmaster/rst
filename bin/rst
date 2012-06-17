@@ -10,9 +10,10 @@ rst_parser = OptionParser.new do |opts|
 usage: rst [options] command
 
 Commands:
-    help [COMMAND]    Get more help for a partiular command.
-    user [USERNAME]   See one particular user's updates.
-    world             See the latest updates that anyone has made.
+    help [COMMAND]         Get more help for a partiular command.
+    user [USERNAME]        See one particular user's updates.
+    world                  See the latest updates that anyone has made.
+    users-search [PATTERN] Search for usernames that match the pattern.
 
 Options:"
 

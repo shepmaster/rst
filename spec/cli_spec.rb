@@ -61,4 +61,20 @@ describe "Rst::CLI" do
 
   end
 
+  describe "users_search" do
+    it "searches for that pattern" do
+      users = ["one", "two"]
+
+      Rst::Client.expects(:users_search).
+                  once.
+                  with({:pattern => "o"}).
+                  returns(users)
+      @cli.users_search({}, "o").size.must_equal(2)
+    end
+
+    it "requires a pattern" do
+      lambda { @cli.users_search }.must_raise(RuntimeError)
+    end
+  end
+
 end

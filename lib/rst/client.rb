@@ -30,6 +30,24 @@ module Rst
     end
 
     def messages_user(params = {})
+      search_results = users_search(:pattern => params[:username])
+
+      result = search_results.detect { |sr|
+        sr.username.match(/^#{params[:username]}$/i)
+      }
+
+      user_uri = resolve_relative_uri(
+        :relative => result.path,
+        :base     => base_uri
+      )
+
+      user_response = get_body(user_uri)
+
+      message_nodes = user_response.css("div#messages ul.messages-user li")
+      message_nodes.map { |li| Rst::Status.parse(li) }
+    end
+
+    def users_search(params = {})
       users_search_path = find_a_in(root_response, :rel => "users-search")
       users_search_uri = resolve_relative_uri(
         :relative => users_search_path,
@@ -44,28 +62,12 @@ module Rst
         :base     => users_search_uri
       )
 
-      user_lookup_query = "#{search_uri}?search=#{params[:username]}"
+      user_lookup_query = "#{search_uri}?search=#{params[:pattern]}"
 
       user_lookup_response = get_body(user_lookup_query)
 
       search_results = user_lookup_response.css("div#users ul.search li.user")
-
-      result = search_results.detect { |sr|
-        sr.css("span.user-text").first.text.strip.match(/^#{params[:username]}$/i)
-      }
-
-      user_path = find_a_in(result, :rel => "user")
-      user_uri = resolve_relative_uri(
-        :relative => user_path,
-        :base     => user_lookup_query
-      )
-
-      user_response = get_body(user_uri)
-
-      messages = user_response.css("div#messages ul.messages-user li").map { |li|
-                   Rst::Status.parse(li)
-                 }
-
+      search_results.map { |li| Rst::User.parse(li) }
     end
 
     private

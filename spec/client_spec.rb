@@ -34,4 +34,14 @@ describe "client" do
       end
     end
   end
+
+  describe "users_search" do
+    it "finds users with the given pattern" do
+      VCR.use_cassette("users_search_with_results") do
+        Rst::Client.users_search(
+          :pattern => "ca"
+        ).size.must_equal 20
+      end
+    end
+  end
 end

@@ -1,0 +1,484 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://rstat.us
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: ! 'OK '
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 17 Jun 2012 22:26:00 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"54fa7fe00d3cabad50373e7021a3b94c"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Runtime:
+      - '0.484777'
+      X-Rack-Cache:
+      - miss
+      Set-Cookie:
+      - _rstat.us_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTMxZjI0MTgwYTMwYTYyMjliNjk1YWJhNTM0MzNmOTNjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXFlUDhMRU9RbEd3SXZXWkdtRzUvZEx6eGxHNnh2ZEdRdGs4eVQ0VXNzUlk9BjsARg%3D%3D--9a5e542c5b7a40804cf6dcbc57655630f355b52f;
+        path=/; expires=Sun, 24-Jun-2012 22:26:00 GMT; HttpOnly
+      X-Varnish:
+      - '1271628313'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: ! "<!DOCTYPE html>\n<html class='no-js' lang='en'>\n<head><script type=\"text/javascript\">var
+        NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n<meta
+        charset='utf-8'>\n<title>rstat.us</title>\n<script src=\"/assets/application-85f9725f39cb94c87fedaf584d19c2b4.js\"
+        type=\"text/javascript\"></script>\n<link href=\"/assets/application-25f42916ee009ac80dfe4dc5aea6c47e.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"qeP8LEOQlGwIvWZGmG5/dLzxlG6xvdGQtk8yT4UssRY=\"
+        name=\"csrf-token\" />\n<link href='images/mobile_icons/apple-touch-icon_114.png'
+        rel='apple-touch-icon-precomposed' sizes='114x114'>\n<link href='images/mobile_icons/apple-touch-icon_72.png'
+        rel='apple-touch-icon-precomposed' sizes='72x72'>\n<link href='images/mobile_icons/apple-touch-icon.png'
+        rel='apple-touch-icon-precomposed'>\n\n<script>\n  //<![CDATA[\n    var _gaq
+        = _gaq || [];\n    _gaq.push(['_setAccount', 'UA-22030550-1']);\n    _gaq.push(['_trackPageview']);\n
+        \   \n    (function() {\n      var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;\n      ga.src = ('https:' ==
+        document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n
+        \     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);\n
+        \   })();\n  //]]>\n</script>\n\n</head>\n\n<body id='home'>\n<div id='header-wrap'>\n<div
+        id='header'>\n<div id='logo'>\n<a href='/'>\n<h1>\nrstat.us\n</h1>\n</a>\n</div>\n<ul
+        class='menu' id='main'>\n<li class='home active'>\n      <a href='/' rel='index'>Home</a>\n
+        \   </li>\n<li class='updates '>\n      <a href='/updates' rel='messages-all'>Updates</a>\n
+        \   </li>\n<li class='search '>\n      <a href='/search' rel='messages-search'>Search</a>\n
+        \   </li>\n<li class='users '>\n      <a href='/users' rel='users-search'>Users</a>\n
+        \   </li>\n</ul>\n\n\n</div>\n</div>\n\n\n<div id='flash'>\n</div>\n\n<div
+        id='welcome'>\n<div class='wrap'>\n<div id='intro'>\n<h1>Hello.</h1>\n<h3>Welcome
+        to rstat.us</h3>\n</div>\n<div id='signup'>\n<h3>Sign in with</h3>\n<div class='twitter
+        option'>\n<a class='button' href='/auth/twitter'>\n<span class='icon twitter'></span>\nTwitter\n</a>\n</div>\n<div
+        class='username option'>\n<a class='button' href='/login'>\n<span class='icon
+        comment'></span>\nUsername\n</a>\n</div>\n</div>\n</div>\n</div>\n<div id='pitch'>\n<div
+        class='wrap'>\n<a class='col' href='/login' id='col-1'>\n<div class='content'>\n<h3>\nSign
+        Up\n</h3>\nwith Twitter or create a new account\n</div>\n<img alt=\"Slide1\"
+        src=\"/assets/slide1-5dd1b6b8ec93eb6f9d15b0d84f883231.png\" />\n</a>\n<div
+        class='col' id='col-2'>\n<div class='content'>\n<h3>\nConnect\n</h3>\nto your
+        friends and family around the world\n</div>\n<img alt=\"Slide2\" src=\"/assets/slide2-1ab49b82188ee4ddfee0e94c875e0ec9.png\"
+        />\n</div>\n<div class='col last-col' id='col-3'>\n<div class='content'>\n<h3>\nShare\n</h3>\nyour
+        thoughts in 140 characters or less\n</div>\n<img alt=\"Slide3\" src=\"/assets/slide3-cfa4a836c6cf4b2ca6eee8c2dcc8f698.png\"
+        />\n</div>\n</div>\n</div>\n<div id='page'>\n<div id='content-wrap'>\n<div
+        id='top'>\n<h3>Recent updates</h3>\n<p>What people are talking about right
+        now</p>\n</div>\n<div id='content'>\n<div class='updates'>\n<div id='messages'>\n<ul
+        class='updates' id=''>\n<li class='hentry message update' data-id='4fde54c9ea8ecc0001002c04'
+        data-name='whistlewright' id='update-4fde54c9ea8ecc0001002c04'>\n<div class='author
+        vcard'>\n<a class='url' href='http://parlementum.net/user/3' rel='user'>\n<div
+        class=\"avatar\"><a href=\"http://parlementum.net/user/3\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://parlementum.net/avatar/3-96-20110626055239.jpeg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://parlementum.net/user/3'>\nAlgernon
+        Whistlewright\n(<span class=\"nickname user-text\">whistlewright</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nHopefully today’s noise
+        has been closer to suitable\n</span>\n</div>\n<div class='info'>\n<time class=\"published\"
+        datetime=\"2012-06-17T22:05:52Z\" pubdate=\"pubdate\"><a class=\"timeago\"
+        href=\"http://parlementum.net/notice/3131454\" rel=\"bookmark message\" title=\"2012-06-17T22:05:52Z\"><span
+        class=\"date-time\">2012-06-17T22:05:52</span></a></time>\n</div>\n<div class='actions'>\n</div>\n</li>\n<li
+        class='hentry message update' data-id='4fde4afdea8ecc0001001f29' data-name='methoddan'
+        id='update-4fde4afdea8ecc0001001f29'>\n<div class='author vcard'>\n<a class='url'
+        href='http://identi.ca/user/2084' rel='user'>\n<div class=\"avatar\"><a href=\"http://identi.ca/user/2084\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar.identi.ca/2084-96-20100903092641.jpeg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://identi.ca/user/2084'>\nDan
+        Lynch\n(<span class=\"nickname user-text\">methoddan</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nDoing a spot of late
+        night podcast editing. It's Free As In Freedom this time. Next episode out
+        Tuesday.\n</span>\n</div>\n<div class='info'>\n<time class=\"published\" datetime=\"2012-06-17T21:23:44Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94692875\"
+        rel=\"bookmark message\" title=\"2012-06-17T21:23:44Z\"><span class=\"date-time\">2012-06-17T21:23:44</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fde487dea8ecc0001001b76'
+        data-name='thp' id='update-4fde487dea8ecc0001001b76'>\n<div class='author
+        vcard'>\n<a class='url' href='http://identi.ca/user/28928' rel='user'>\n<div
+        class=\"avatar\"><a href=\"http://identi.ca/user/28928\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://avatar.identi.ca/28928-96-20110131123526.png\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://identi.ca/user/28928'>\nThomas
+        Perl\n(<span class=\"nickname user-text\">thp</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nAfter reading <a href='http://ur1.ca/9ir14'>http://ur1.ca/9ir14</a>
+        I think that a <a href='/search?search=%23BB10'>#BB10</a> port of !gPodder
+        would be very easy to do (just replace the QML).\n</span>\n</div>\n<div class='info'>\n<time
+        class=\"published\" datetime=\"2012-06-17T21:13:29Z\" pubdate=\"pubdate\"><a
+        class=\"timeago\" href=\"http://identi.ca/notice/94692675\" rel=\"bookmark
+        message\" title=\"2012-06-17T21:13:29Z\"><span class=\"date-time\">2012-06-17T21:13:29</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fde4704ea8ecc0001001838'
+        data-name='theru' id='update-4fde4704ea8ecc0001001838'>\n<div class='author
+        vcard'>\n<a class='url' href='http://identi.ca/user/26098' rel='user'>\n<div
+        class=\"avatar\"><a href=\"http://identi.ca/user/26098\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://avatar.identi.ca/26098-96-20090125093912.png\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://identi.ca/user/26098'>\nKim
+        Rasmussen\n(<span class=\"nickname user-text\">theru</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\n<a href='http://identi.ca/users/jk'>@jk</a>
+        he he it's not a small white ball hit with a club -&gt; filter :)\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-17T21:07:08Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94692508\"
+        rel=\"bookmark message\" title=\"2012-06-17T21:07:08Z\"><span class=\"date-time\">2012-06-17T21:07:08</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fde470dea8ecc0001001843'
+        data-name='alpacaherder' id='update-4fde470dea8ecc0001001843'>\n<div class='author
+        vcard'>\n<a class='url' href='http://identi.ca/user/16938' rel='user'>\n<div
+        class=\"avatar\"><a href=\"http://identi.ca/user/16938\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://avatar3.status.net/i/identica/16938-96-20090624205858.jpeg\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://identi.ca/user/16938'>\nStephen
+        Michael Kellat\n(<span class=\"nickname user-text\">alpacaherder</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\n@jonobacon Congratulations!\n</span>\n</div>\n<div
+        class='info'>\n<time class=\"published\" datetime=\"2012-06-17T21:05:53Z\"
+        pubdate=\"pubdate\"><a class=\"timeago\" href=\"http://identi.ca/notice/94692481\"
+        rel=\"bookmark message\" title=\"2012-06-17T21:05:53Z\"><span class=\"date-time\">2012-06-17T21:05:53</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n<li class='hentry message update' data-id='4fde45ddea8ecc0001001072'
+        data-name='milad' id='update-4fde45ddea8ecc0001001072'>\n<div class='author
+        vcard'>\n<a class='url' href='http://identi.ca/user/607213' rel='user'>\n<div
+        class=\"avatar\"><a href=\"http://identi.ca/user/607213\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://avatar3.status.net/i/identica/607213-96-20120126231422.png\"
+        /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='http://identi.ca/user/607213'>\nMilad
+        Khajavi\n(<span class=\"nickname user-text\">milad</span>)\n</a>\n</span>\n</div>\n<div
+        class='entry-content'>\n<span class='message-text'>\nاو جمیل است و محبٌ للجمال
+        / کی جوانِ نو گزیند پیر زال؟ /مولوی\n</span>\n</div>\n<div class='info'>\n<time
+        class=\"published\" datetime=\"2012-06-17T21:02:18Z\" pubdate=\"pubdate\"><a
+        class=\"timeago\" href=\"http://identi.ca/notice/94692406\" rel=\"bookmark
+        message\" title=\"2012-06-17T21:02:18Z\"><span class=\"date-time\">2012-06-17T21:02:18</span></a></time>\n</div>\n<div
+        class='actions'>\n</div>\n</li>\n</ul>\n<nav class='pagination'>\n</nav>\n\n</div>\n\n</div>\n</div>\n<div
+        id='bottom'>\n<div class='login'>\n<a href='/login'>\nJoin the conversation\n</a>\n</div>\n<div
+        class='read-more'>\n<a href='/updates' rel='messages-all'>\nmore...\n</a>\n</div>\n</div>\n</div>\n<div
+        id='sidebar'>\n<div id='manifesto'>\n<h3>rstat.us?</h3>\n\n<p>Microblogging
+        has taken the world by storm. Millions of people around the world now share
+        their thoughts with friends, family, and random strangers every day. Links
+        are shared, stories are told, and events are discussed. rstatus is the newest
+        place to participate in the collective conscious of the planet.</p>\n\n<h3>What's
+        different about it?</h3>\n\n<p>There are two things that make rstat.us special:
+        <em>simplicity</em> and <em>openness</em>.</p>\n\n<p><strong>Simplicity</strong>
+        is a core 'feature' of rstat.us. We pride ourselves on saying 'no' to lots
+        of features. Our interface is clean, and easy to understand. We give you just
+        enough features to be interesting, but not enough to be complicated and confusing.</p>\n\n<p>If
+        you're a software developer, you'll probably want to check out our <a href=\"/open_source\">Open
+        Source page</a>. If that's greek to you, here's the deal on <strong>Openness</strong>:
+        the programming code that makes up rstat.us is available for anyone to download,
+        free of charge. Programmers can use that code to run their own websites just
+        like rstat.us, and you can subscribe to your friends on any site that supports
+        the <a href=\"http://ostatus.org/about\">OStatus protocol</a>, like <a href=\"http://identi.ca/\">identi.ca</a>.
+        This also means that you can own your data, we'll never stop you from having
+        full access to everything you've put into rstat.us.</p>\n\n<p>- The <strong>rstat.us</strong>
+        team</p>\n</div>\n</div>\n</div>\n<div id='footer'>\n<div id='footer-wrap'>\n<div
+        id='footer-logo'>\n<a href='/'>\nrstat.us\n</a>\n</div>\n<ul class='menu'
+        id='footer-meu'>\n<li class='home active'>\n      <a href='/'>Home</a>\n    </li>\n<li
+        class='login/signup '>\n      <a href='/login'>Login/Signup</a>\n    </li>\n<li
+        class='open_source '>\n      <a href='/open_source'>Open Source</a>\n    </li>\n<li
+        class='contact '>\n      <a href='/contact'>Contact</a>\n    </li>\n\n</ul>\n\n</div>\n</div>\n\n<script
+        type=\"text/javascript\">if (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new
+        Date().getTime()]);\nvar e=document.createElement(\"script\");\ne.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/39/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"1b64b06072\",527427,\"IF1bEhcOWQhXRxxFTQJGXAVKCVoJV0VSUVw=\",0.0,483,new
+        Date().getTime(),\"\",\"\",\"\",\"\",\"\"])</script></body>\n</html>\n"
+    http_version: '1.1'
+  recorded_at: Sun, 17 Jun 2012 22:26:00 GMT
+- request:
+    method: get
+    uri: http://rstat.us/users
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: ! 'OK '
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 17 Jun 2012 22:26:00 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"1f04d76c8781129d469adf039313dff7"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Runtime:
+      - '0.008485'
+      X-Rack-Cache:
+      - miss
+      Set-Cookie:
+      - _rstat.us_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTgzYThhNzc4NDJmOWU0MTI3NjJjNWY4ZjQ0ZGU3ZDgzBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXJrczdlY2V6Rk04QnljS1dkU1l1SG5xOFBxL0x6T0JKUkdTV1cxU1pCSUE9BjsARg%3D%3D--6685485c9615779fbb46589df569477f2ab9d2c0;
+        path=/; expires=Sun, 24-Jun-2012 22:26:00 GMT; HttpOnly
+      X-Varnish:
+      - '816595889'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: ! "<!DOCTYPE html>\n<html class='no-js' lang='en'>\n<head><script type=\"text/javascript\">var
+        NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n<meta
+        charset='utf-8'>\n<title>users - rstat.us</title>\n<script src=\"/assets/application-85f9725f39cb94c87fedaf584d19c2b4.js\"
+        type=\"text/javascript\"></script>\n<link href=\"/assets/application-25f42916ee009ac80dfe4dc5aea6c47e.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"rks7ecezFM8BycKWdSYuHnq8Pq/LzOBJRGSWW1SZBIA=\"
+        name=\"csrf-token\" />\n<link href='images/mobile_icons/apple-touch-icon_114.png'
+        rel='apple-touch-icon-precomposed' sizes='114x114'>\n<link href='images/mobile_icons/apple-touch-icon_72.png'
+        rel='apple-touch-icon-precomposed' sizes='72x72'>\n<link href='images/mobile_icons/apple-touch-icon.png'
+        rel='apple-touch-icon-precomposed'>\n\n<script>\n  //<![CDATA[\n    var _gaq
+        = _gaq || [];\n    _gaq.push(['_setAccount', 'UA-22030550-1']);\n    _gaq.push(['_trackPageview']);\n
+        \   \n    (function() {\n      var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;\n      ga.src = ('https:' ==
+        document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n
+        \     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);\n
+        \   })();\n  //]]>\n</script>\n\n</head>\n\n<body>\n<div id='header-wrap'>\n<div
+        id='header'>\n<div id='logo'>\n<a href='/'>\n<h1>\nrstat.us\n</h1>\n</a>\n</div>\n<ul
+        class='menu' id='main'>\n<li class='home '>\n      <a href='/' rel='index'>Home</a>\n
+        \   </li>\n<li class='updates '>\n      <a href='/updates' rel='messages-all'>Updates</a>\n
+        \   </li>\n<li class='search '>\n      <a href='/search' rel='messages-search'>Search</a>\n
+        \   </li>\n<li class='users active'>\n      <a href='/users' rel='users-search'>Users</a>\n
+        \   </li>\n</ul>\n\n\n</div>\n</div>\n\n\n<div id='page'>\n<div id='content-wrap'>\n<h2
+        class='title'>Users\n</h2>\n<div id='top'>\n<div id='flash'>\n</div>\n\n<div
+        class='search' id='users-search'>\n<form action='/users' class='users-search'
+        method='get'>\n<input name='search' type='text'>\n<input class='button' type='submit'
+        value='Search'>\n</form>\n</div>\n\n</div>\n<div id='content'>\n<div class='empty'>\nSorry,
+        no users that match.\n</div>\n<nav class='pagination'>\n</nav>\n\n\n</div>\n\n</div>\n<div
+        id='sidebar'>\n\n<div class='block'>\n<h5 class='title'>\nJoin rstat.us\n</h5>\n<p>\nSign
+        up now and start sharing\n</p>\n<p>\n<a href='/login'>Sign up</a>\n</p>\n</div>\n\n\n</div>\n</div>\n<div
+        id='footer'>\n<div id='footer-wrap'>\n<div id='footer-logo'>\n<a href='/'>\nrstat.us\n</a>\n</div>\n<ul
+        class='menu' id='footer-meu'>\n<li class='home '>\n      <a href='/'>Home</a>\n
+        \   </li>\n<li class='login/signup '>\n      <a href='/login'>Login/Signup</a>\n
+        \   </li>\n<li class='open_source '>\n      <a href='/open_source'>Open Source</a>\n
+        \   </li>\n<li class='contact '>\n      <a href='/contact'>Contact</a>\n    </li>\n\n</ul>\n\n</div>\n</div>\n\n<script
+        type=\"text/javascript\">if (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new
+        Date().getTime()]);\nvar e=document.createElement(\"script\");\ne.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/39/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"1b64b06072\",527427,\"IF1bEhcOWQhXRxxDSgZARkkMD1EBSg==\",0,7,new
+        Date().getTime(),\"\",\"\",\"\",\"\",\"\"])</script></body>\n</html>\n"
+    http_version: '1.1'
+  recorded_at: Sun, 17 Jun 2012 22:26:00 GMT
+- request:
+    method: get
+    uri: http://rstat.us/users?search=ca
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: ! 'OK '
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 17 Jun 2012 22:26:00 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - ! '"77325595857d38e9c5a3c36c7c336eee"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Runtime:
+      - '0.068468'
+      X-Rack-Cache:
+      - miss
+      Set-Cookie:
+      - _rstat.us_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWUxNjE2M2FiZjUwZDA5YmNmMzZjOGM4YTliYzlmMjg5BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMWdqdWZhaGRmRkJxNkpHbUNzWWMzdERCOVR5dXlNU2JPM1FuOFJqWmVoczQ9BjsARg%3D%3D--8cc55582d97a2f0a599a8f8eabf6393445ea6771;
+        path=/; expires=Sun, 24-Jun-2012 22:26:00 GMT; HttpOnly
+      X-Varnish:
+      - '408570952'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: ! "<!DOCTYPE html>\n<html class='no-js' lang='en'>\n<head><script type=\"text/javascript\">var
+        NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new Date().getTime()]);</script>\n<meta
+        charset='utf-8'>\n<title>users - rstat.us</title>\n<script src=\"/assets/application-85f9725f39cb94c87fedaf584d19c2b4.js\"
+        type=\"text/javascript\"></script>\n<link href=\"/assets/application-25f42916ee009ac80dfe4dc5aea6c47e.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"gjufahdfFBq6JGmCsYc3tDB9TyuyMSbO3Qn8RjZehs4=\"
+        name=\"csrf-token\" />\n<link href='images/mobile_icons/apple-touch-icon_114.png'
+        rel='apple-touch-icon-precomposed' sizes='114x114'>\n<link href='images/mobile_icons/apple-touch-icon_72.png'
+        rel='apple-touch-icon-precomposed' sizes='72x72'>\n<link href='images/mobile_icons/apple-touch-icon.png'
+        rel='apple-touch-icon-precomposed'>\n\n<script>\n  //<![CDATA[\n    var _gaq
+        = _gaq || [];\n    _gaq.push(['_setAccount', 'UA-22030550-1']);\n    _gaq.push(['_trackPageview']);\n
+        \   \n    (function() {\n      var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;\n      ga.src = ('https:' ==
+        document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n
+        \     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);\n
+        \   })();\n  //]]>\n</script>\n\n</head>\n\n<body>\n<div id='header-wrap'>\n<div
+        id='header'>\n<div id='logo'>\n<a href='/'>\n<h1>\nrstat.us\n</h1>\n</a>\n</div>\n<ul
+        class='menu' id='main'>\n<li class='home '>\n      <a href='/' rel='index'>Home</a>\n
+        \   </li>\n<li class='updates '>\n      <a href='/updates' rel='messages-all'>Updates</a>\n
+        \   </li>\n<li class='search '>\n      <a href='/search' rel='messages-search'>Search</a>\n
+        \   </li>\n<li class='users active'>\n      <a href='/users' rel='users-search'>Users</a>\n
+        \   </li>\n</ul>\n\n\n</div>\n</div>\n\n\n<div id='page'>\n<div id='content-wrap'>\n<h2
+        class='title'>Users\n</h2>\n<div id='top'>\n<div id='flash'>\n</div>\n\n<div
+        class='search' id='users-search'>\n<form action='/users' class='users-search'
+        method='get'>\n<input name='search' type='text' value='ca'>\n<input class='button'
+        type='submit' value='Search'>\n</form>\n</div>\n\n</div>\n<div id='content'>\n<div
+        id='users'>\n<ul class='search user-list'>\n<li class='even user'>\n<div class=\"avatar\"><a
+        href=\"/users/carlostobin\"><img alt=\"avatar\" class=\"photo user-image\"
+        src=\"http://a3.twimg.com/profile_images/1172388053/profile_picture_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/carlostobin' rel='user messages'>\n<b>\nCarlos
+        Tobin\n</b>\n(<span class=\"user-text\">carlostobin</span>)\n</a>\n<div class='bio'>\n<span
+        class='description'>\nFounder/CEO of personal finance management start-up.
+        Passionate about disruptive innovation in the mortgage and banking industries.\n</span>\n</div>\n</div>\n</li>\n<li
+        class='odd user'>\n<div class=\"avatar\"><a href=\"/users/philcampbell\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a1.twimg.com/profile_images/1170166595/new-twitter-avatar_normal.png\"
+        /></a></div>\n<div class='info'>\n<a href='/users/philcampbell' rel='user
+        messages'>\n<b>\nPhil Campbell\n</b>\n(<span class=\"user-text\">philcampbell</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\nℒℴѵℯ socialmedia, streetgeek, early
+        adopter live at http://blog.me.dm - studio @fibrecamp - found @antenna_uk,
+        and building an ark @thelivingark - hai! ;)\n</span>\n</div>\n</div>\n</li>\n<li
+        class='even user'>\n<div class=\"avatar\"><a href=\"/users/josepcanal\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a0.twimg.com/profile_images/1229074601/161269_1439583191_3389076_q_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/josepcanal' rel='user messages'>\n<b>\nJosep
+        Canal\n</b>\n(<span class=\"user-text\">josepcanal</span>)\n</a>\n<div class='bio'>\n<span
+        class='description'>\nInformàtic i poeta autònom. Postulador de la teoria
+        de la família polimononuclear. \r\nGolfo en pràctiques permanents (jo vull
+        un contracte fixe).\n</span>\n</div>\n</div>\n</li>\n<li class='odd user'>\n<div
+        class=\"avatar\"><a href=\"/users/canadaguidetour\"><img alt=\"avatar\" class=\"photo
+        user-image\" src=\"http://a1.twimg.com/profile_images/1260595701/tour_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/canadaguidetour' rel='user
+        messages'>\n<b>\nCanada Guide Tour\n</b>\n(<span class=\"user-text\">canadaguidetour</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\nПредлагаем регулярные, индивидуальные,
+        VIP, групповые туры, туры выходного дня, семейные туры, однодневные экскурсии,
+        отдых в горах, речные и морские круизы.\n</span>\n</div>\n</div>\n</li>\n<li
+        class='even user'>\n<div class=\"avatar\"><a href=\"/users/oscargodson\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a0.twimg.com/profile_images/1145440705/-1_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/oscargodson' rel='user messages'>\n<b>\nOscar
+        Godson\n</b>\n(<span class=\"user-text\">oscargodson</span>)\n</a>\n<div class='bio'>\n<span
+        class='description'>\nThe developer of Project Deploy* and PatternWall.com
+        and KneeDeepInCode.com\n</span>\n</div>\n</div>\n</li>\n<li class='odd user'>\n<div
+        class=\"avatar\"><a href=\"/users/SeanCallinan\"><img alt=\"avatar\" class=\"photo
+        user-image\" src=\"http://a3.twimg.com/profile_images/1276196480/34648_1463923751902_1047726038_31370252_1781160_n_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/SeanCallinan' rel='user
+        messages'>\n<b>\nSean Callinan\n</b>\n(<span class=\"user-text\">SeanCallinan</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\n19. Dunedin. Kiwi. @CucumberError
+        is my awesome other half, follow him :)\n</span>\n</div>\n</div>\n</li>\n<li
+        class='even user'>\n<div class=\"avatar\"><a href=\"/users/scamper\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a2.twimg.com/profile_images/346479403/pingu-172_normal.png\"
+        /></a></div>\n<div class='info'>\n<a href='/users/scamper' rel='user messages'>\n<b>\njeff
+        robinson\n</b>\n(<span class=\"user-text\">scamper</span>)\n</a>\n<div class='bio'>\n<span
+        class='description'>\nui designer and all round pixel whisperer, children's
+        book writer (in progress), music dabbler (much investment, little return)\n</span>\n</div>\n</div>\n</li>\n<li
+        class='odd user'>\n<div class=\"avatar\"><a href=\"/users/CarsonReynolds\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a2.twimg.com/profile_images/62171996/foo_normal.png\"
+        /></a></div>\n<div class='info'>\n<a href='/users/CarsonReynolds' rel='user
+        messages'>\n<b>\nCarsonReynolds\n</b>\n(<span class=\"user-text\">CarsonReynolds</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\nTokyo-based academic whose fascinations
+        include sensors, privacy, roboethics, and affective design. Also founded the
+        Devices that Alter Perception workshop.\n</span>\n</div>\n</div>\n</li>\n<li
+        class='even user'>\n<div class=\"avatar\"><a href=\"/users/tcaira\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://a3.twimg.com/profile_images/1120888051/magical_trevor_flying_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/tcaira' rel='user messages'>\n<b>\nTrevor
+        Caira™\n</b>\n(<span class=\"user-text\">tcaira</span>)\n</a>\n<div class='bio'>\n<span
+        class='description'>\nreduce(lambda(k,a),c:(k^ord(c),a+chr(ord(c)^k)),'`?\\x06\\x07TA\\x0f\\x01\\x1b\\x1c\\r\\x17Rp)\\r\\x1c\\x07\\x01NH\\t\\x02\\x08\\x0e\\x17',(42,''))[1]\n</span>\n</div>\n</div>\n</li>\n<li
+        class='odd user'>\n<div class=\"avatar\"><a href=\"/users/cake__eater\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a1.twimg.com/profile_images/780897041/edited3-75_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/cake__eater' rel='user messages'>\n<b>\nPiscuc
+        Paul\n</b>\n(<span class=\"user-text\">cake__eater</span>)\n</a>\n<div class='bio'>\n<span
+        class='description'>\nsys admin + security researcher + cloud computing limits
+        tester + part time sleeper\n</span>\n</div>\n</div>\n</li>\n<li class='even
+        user'>\n<div class=\"avatar\"><a href=\"/users/connectcase\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://a0.twimg.com/profile_images/699024194/indevingersad_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/connectcase' rel='user messages'>\n<b>\nconnectcase\n</b>\n(<span
+        class=\"user-text\">connectcase</span>)\n</a>\n<div class='bio'>\n<span class='description'>\nVoor
+        al uw maatwerkoplossingen op het gebied van webontwikkeling, social media,
+        mashups, Web 2.0, API's etc....\n</span>\n</div>\n</div>\n</li>\n<li class='odd
+        user'>\n<div class=\"avatar\"><a href=\"/users/etard_webcam\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://a2.twimg.com/profile_images/74261651/etard_webcam-200_by_200_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/etard_webcam' rel='user
+        messages'>\n<b>\nETARD THE LIFECASTER\n</b>\n(<span class=\"user-text\">etard_webcam</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\nI'm a 24/7 LifeCaster, For More
+        InFo About Me, My Live WebCam &amp; IRC Chat Room Go To http://e-tard.tv I
+        ONLY FOLLOW PEOPLE ON TWITTER THAT I FEEL LIKE FOLLOWING.\n</span>\n</div>\n</div>\n</li>\n<li
+        class='even user'>\n<div class=\"avatar\"><a href=\"/users/estevao_lucas\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a0.twimg.com/profile_images/1246082128/estevao_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/estevao_lucas' rel='user
+        messages'>\n<b>\nEstevão Lucas\n</b>\n(<span class=\"user-text\">estevao_lucas</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\nWeb developer. Dreamer. Perpetual
+        Learner. Explorer of possibilities. Looking for the perfect beat.\r\n\r\n\n</span>\n</div>\n</div>\n</li>\n<li
+        class='odd user'>\n<div class=\"avatar\"><a href=\"/users/OscarTuitea\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a1.twimg.com/profile_images/1282208068/9034_1220045495811_1069136992_717152_5781059_n_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/OscarTuitea' rel='user messages'>\n<b>\nOscar
+        Diaz Quintero\n</b>\n(<span class=\"user-text\">OscarTuitea</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\nDiseñador Gráfico amante de la publicidad,
+        fotografía y el diseño en todas sus ramas. Soy costeño de la Sabana Colombiana.
+        Tambièn amante del Social Media\n</span>\n</div>\n</div>\n</li>\n<li class='even
+        user'>\n<div class=\"avatar\"><a href=\"http://identi.ca/user/505896\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://avatar3.status.net/i/identica/505896-96-20110819194203.jpeg\"
+        /></a></div>\n<div class='info'>\n<a href='http://identi.ca/user/505896' rel='user
+        messages'>\n<b>\nMarta Padrós Castells\n</b>\n(<span class=\"user-text\">pacamarta</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\n\n</span>\n</div>\n</div>\n</li>\n<li
+        class='odd user'>\n<div class=\"avatar\"><a href=\"/users/Talentomusical1\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://a1.twimg.com/profile_images/1282228225/big__1__normal.JPG\"
+        /></a></div>\n<div class='info'>\n<a href='/users/Talentomusical1' rel='user
+        messages'>\n<b>\nTalentomusical\n</b>\n(<span class=\"user-text\">Talentomusical1</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\nTalentomusical.net Fundado En marzo
+        25 del 2009 por Joel1229 Unos de los blogs con mas entrevistas xclusivas en
+        las redes y unos de los mejores novatos :)\n</span>\n</div>\n</div>\n</li>\n<li
+        class='even user'>\n<div class=\"avatar\"><a href=\"/users/nocash\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://a2.twimg.com/profile_images/799302355/deadduck_normal.png\"
+        /></a></div>\n<div class='info'>\n<a href='/users/nocash' rel='user messages'>\n<b>\nBeau
+        Dacious\n</b>\n(<span class=\"user-text\">nocash</span>)\n</a>\n<div class='bio'>\n<span
+        class='description'>\nI guess I’m a runaway bullet train after all.\n</span>\n</div>\n</div>\n</li>\n<li
+        class='odd user'>\n<div class=\"avatar\"><a href=\"/users/rocapal\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://gravatar.com/avatar/f51d938526b3287c3243bea34669f182?s=48&amp;r=r&amp;d=avatar.png\"
+        /></a></div>\n<div class='info'>\n<a href='/users/rocapal' rel='user messages'>\n<b>\nRoberto
+        Calvo\n</b>\n(<span class=\"user-text\">rocapal</span>)\n</a>\n<div class='bio'>\n<span
+        class='description'>\nR&amp;D Engineer at LibreSoft (URJC), project manager
+        and developer of ARviewer &amp; LibreGeoSocial. Fan of FLOSS, Android, Augmented
+        Reality, new techs and robotic\n</span>\n</div>\n</div>\n</li>\n<li class='even
+        user'>\n<div class=\"avatar\"><a href=\"/users/huntly_cameron\"><img alt=\"avatar\"
+        class=\"photo user-image\" src=\"http://a0.twimg.com/profile_images/923688087/fbpic_normal.jpg\"
+        /></a></div>\n<div class='info'>\n<a href='/users/huntly_cameron' rel='user
+        messages'>\n<b>\nHuntly Cameron\n</b>\n(<span class=\"user-text\">huntly_cameron</span>)\n</a>\n<div
+        class='bio'>\n<span class='description'>\nFreelance web dev/programmer.  Play
+        drums and spend far too much time playing with Linux.  I also enjoy a bit
+        of F1 and am rather partial to a good whisky.\n</span>\n</div>\n</div>\n</li>\n<li
+        class='odd user'>\n<div class=\"avatar\"><a href=\"/users/vm_carbajal\"><img
+        alt=\"avatar\" class=\"photo user-image\" src=\"http://gravatar.com/avatar/311f32a42804005d5fd977eefae12246?s=48&amp;r=r&amp;d=avatar.png\"
+        /></a></div>\n<div class='info'>\n<a href='/users/vm_carbajal' rel='user messages'>\n<b>\nVM_Carbajal\n</b>\n(<span
+        class=\"user-text\">vm_carbajal</span>)\n</a>\n<div class='bio'>\n<span class='description'>\nTu
+        comandante servidor &amp; amigo; dueño de un Doberman Pinscher, mi auto no
+        circula los viernes , I speak English &amp; Je parle Français (Basico)!!!\n</span>\n</div>\n</div>\n</li>\n</ul>\n</div>\n\n<nav
+        class='pagination'>\n<a class='button' href='?page=2&amp;per_page=20' id='next_button'
+        rel='next'>\nNext &raquo;\n</a>\n</nav>\n\n\n</div>\n\n</div>\n<div id='sidebar'>\n\n<div
+        class='block'>\n<h5 class='title'>\nJoin rstat.us\n</h5>\n<p>\nSign up now
+        and start sharing\n</p>\n<p>\n<a href='/login'>Sign up</a>\n</p>\n</div>\n\n\n</div>\n</div>\n<div
+        id='footer'>\n<div id='footer-wrap'>\n<div id='footer-logo'>\n<a href='/'>\nrstat.us\n</a>\n</div>\n<ul
+        class='menu' id='footer-meu'>\n<li class='home '>\n      <a href='/'>Home</a>\n
+        \   </li>\n<li class='login/signup '>\n      <a href='/login'>Login/Signup</a>\n
+        \   </li>\n<li class='open_source '>\n      <a href='/open_source'>Open Source</a>\n
+        \   </li>\n<li class='contact '>\n      <a href='/contact'>Contact</a>\n    </li>\n\n</ul>\n\n</div>\n</div>\n\n<script
+        type=\"text/javascript\">if (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new
+        Date().getTime()]);\nvar e=document.createElement(\"script\");\ne.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/39/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"1b64b06072\",527427,\"IF1bEhcOWQhXRxxDSgZARkkMD1EBSg==\",0.0,67,new
+        Date().getTime(),\"\",\"\",\"\",\"\",\"\"])</script></body>\n</html>\n"
+    http_version: '1.1'
+  recorded_at: Sun, 17 Jun 2012 22:26:00 GMT
+recorded_with: VCR 2.1.1

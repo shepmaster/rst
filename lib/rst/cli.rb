@@ -6,9 +6,9 @@ module Rst
       command      = args[0]
       rest_of_args = args[1, args.length]
 
-      updates      = send(command, options, rest_of_args)
+      results      = send(command.gsub(/-/, "_"), options, rest_of_args)
 
-      puts updates.join("\n\n")
+      puts results.join("\n\n")
     rescue Exception => e
       puts e.message
       exit 1
@@ -23,6 +23,19 @@ module Rst
       raise "Username is required." unless username
       statuses(:messages_user, params.merge(:username => username))
     end
+
+    def users_search(params = {}, args = [])
+      search_pattern = args[0]
+      raise "Username search pattern is required." unless search_pattern
+      users = Rst::Client.users_search(:pattern => search_pattern)
+      if users.empty?
+        ["No users that match."]
+      else
+        users
+      end
+    end
+
+    private
 
     def statuses(which, params = {})
       statuses = []
@@ -40,5 +53,6 @@ module Rst
 
       statuses.take(num)
     end
+
   end
 end
