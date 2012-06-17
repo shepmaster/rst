@@ -6,8 +6,6 @@ module Rst
     extend self
 
     def messages_all(params = {:page => 1})
-      root_response = get_body(base_uri)
-
       link = root_response.xpath(
         "//a[contains(@rel, 'messages-all')]"
       ).first
@@ -23,8 +21,6 @@ module Rst
     end
 
     def messages_user(params = {})
-      root_response = get_body(base_uri)
-
       users_search_link = root_response.xpath(
         "//a[contains(@rel, 'users-search')]"
       ).first
@@ -59,6 +55,10 @@ module Rst
     end
 
     private
+
+    def root_response
+      get_body(base_uri)
+    end
 
     def resolve_relative_uri(rel)
       (URI(base_uri) + URI(rel)).to_s
