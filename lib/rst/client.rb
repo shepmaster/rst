@@ -6,11 +6,7 @@ module Rst
     extend self
 
     def messages_all(params = {:page => 1})
-      link = root_response.xpath(
-        "//a[contains(@rel, 'messages-all')]"
-      ).first
-
-      uri = resolve_relative_uri(link["href"])
+      uri = find_a_in(root_response, :rel => "messages-all")
 
       all_response = get_body(uri)
 
@@ -21,11 +17,7 @@ module Rst
     end
 
     def messages_user(params = {})
-      users_search_link = root_response.xpath(
-        "//a[contains(@rel, 'users-search')]"
-      ).first
-
-      users_search_uri = resolve_relative_uri(users_search_link["href"])
+      users_search_uri = find_a_in(root_response, :rel => "users-search")
 
       users_search_response = get_body(users_search_uri)
 
@@ -42,9 +34,7 @@ module Rst
         sr.css("span.user-text").first.text.strip.match(/^#{params[:username]}$/i)
       }
 
-      user_link = result.xpath(".//a[contains(@rel, 'user')]").first
-
-      user_uri = resolve_relative_uri(user_link["href"])
+      user_uri = find_a_in(result, :rel => "user")
 
       user_response = get_body(user_uri)
 
@@ -56,12 +46,22 @@ module Rst
 
     private
 
+    def find_a_in(html, params = {})
+      raise "no rel specified" unless params[:rel]
+
+      link = html.xpath(
+        ".//a[contains(@rel, '#{params[:rel]}')]"
+      ).first
+
+      resolve_relative_uri(link["href"])
+    end
+
     def root_response
       get_body(base_uri)
     end
 
-    def resolve_relative_uri(rel)
-      (URI(base_uri) + URI(rel)).to_s
+    def resolve_relative_uri(relative)
+      (URI(base_uri) + URI(relative)).to_s
     end
 
     def base_uri
