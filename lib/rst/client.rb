@@ -13,11 +13,20 @@ module Rst
       )
 
       all_response = get_body(messages_all_uri)
+      current_uri = messages_all_uri
+
+      (params[:page] - 1).times do
+        next_page_path = find_a_in(all_response, :rel => "next")
+        current_uri = resolve_relative_uri(
+          :relative => next_page_path,
+          :base     => current_uri
+        )
+        all_response = get_body(current_uri)
+      end
 
       messages = all_response.css("div#messages ul.all li").map { |li|
                    Rst::Status.parse(li)
                  }
-
     end
 
     def messages_user(params = {})
