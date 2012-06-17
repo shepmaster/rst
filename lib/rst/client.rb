@@ -18,10 +18,10 @@ module Rst
         "//a[contains(@rel, 'messages-all')]"
       ).first
 
-      url = (URI(base_uri) + URI(link["href"])).to_s
+      uri = (URI(base_uri) + URI(link["href"])).to_s
 
       all_response = Nokogiri::HTML.parse(
-        Typhoeus::Request.get(url).body
+        Typhoeus::Request.get(uri).body
       )
 
       messages = all_response.css("div#messages ul.all li").map { |li|
@@ -39,16 +39,16 @@ module Rst
         "//a[contains(@rel, 'users-search')]"
       ).first
 
-      users_search_url = (URI(base_uri) + URI(users_search_link["href"])).to_s
+      users_search_uri = (URI(base_uri) + URI(users_search_link["href"])).to_s
 
       users_search_response = Nokogiri::HTML.parse(
-        Typhoeus::Request.get(users_search_url).body
+        Typhoeus::Request.get(users_search_uri).body
       )
 
       form = users_search_response.css("form.users-search").first
-      search_url = (URI(base_uri) + URI(form["action"])).to_s
+      search_uri = (URI(base_uri) + URI(form["action"])).to_s
 
-      user_lookup_query = "#{search_url}?search=#{params[:username]}"
+      user_lookup_query = "#{search_uri}?search=#{params[:username]}"
 
       user_lookup_response = Nokogiri::HTML.parse(
         Typhoeus::Request.get(user_lookup_query).body
@@ -62,10 +62,10 @@ module Rst
 
       user_link = result.xpath(".//a[contains(@rel, 'user')]").first
 
-      user_url = (URI(base_uri) + URI(user_link["href"])).to_s
+      user_uri = (URI(base_uri) + URI(user_link["href"])).to_s
 
       user_response = Nokogiri::HTML.parse(
-        Typhoeus::Request.get(user_url).body
+        Typhoeus::Request.get(user_uri).body
       )
 
       messages = user_response.css("div#messages ul.messages-user li").map { |li|
