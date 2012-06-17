@@ -12,7 +12,7 @@ module Rst
         "//a[contains(@rel, 'messages-all')]"
       ).first
 
-      uri = (URI(base_uri) + URI(link["href"])).to_s
+      uri = resolve_relative_uri(link["href"])
 
       all_response = get_body(uri)
 
@@ -29,12 +29,12 @@ module Rst
         "//a[contains(@rel, 'users-search')]"
       ).first
 
-      users_search_uri = (URI(base_uri) + URI(users_search_link["href"])).to_s
+      users_search_uri = resolve_relative_uri(users_search_link["href"])
 
       users_search_response = get_body(users_search_uri)
 
       form = users_search_response.css("form.users-search").first
-      search_uri = (URI(base_uri) + URI(form["action"])).to_s
+      search_uri = resolve_relative_uri(form["action"])
 
       user_lookup_query = "#{search_uri}?search=#{params[:username]}"
 
@@ -48,7 +48,7 @@ module Rst
 
       user_link = result.xpath(".//a[contains(@rel, 'user')]").first
 
-      user_uri = (URI(base_uri) + URI(user_link["href"])).to_s
+      user_uri = resolve_relative_uri(user_link["href"])
 
       user_response = get_body(user_uri)
 
@@ -59,6 +59,10 @@ module Rst
     end
 
     private
+
+    def resolve_relative_uri(rel)
+      (URI(base_uri) + URI(rel)).to_s
+    end
 
     def base_uri
       "http://rstat.us"
