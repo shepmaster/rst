@@ -23,7 +23,7 @@ describe "status" do
             <span class="nickname user-text">user123</span>
           </div>
           <div class="entry-content">
-            <span class="message-text">Hello world!</span
+            <span class="message-text">Hello world!</span>
           </div>
         </li>
         HERE
@@ -42,7 +42,7 @@ describe "status" do
             Hello
 
             world!
-          </span
+          </span>
         </li>
         HERE
       )
