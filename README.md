@@ -20,6 +20,8 @@ Current Functionality
 ---------------------
 
 * Read rstat.us world statuses without being logged in.
+* Read a particular user's statuses without being logged in.
+* Search for users whose username contains a pattern.
 
 Future functionality
 --------------------
