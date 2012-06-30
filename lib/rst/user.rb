@@ -2,11 +2,19 @@ module Rst
   class User
     attr_reader :username, :full_name, :description, :path
 
-    def initialize(params = {})
-      @username    = cleanup_whitespace(params[:username])
-      @full_name   = cleanup_whitespace(params[:full_name])
-      @description = cleanup_whitespace(params[:description])
-      @path        = cleanup_whitespace(params[:path])
+    def initialize(params)
+      @username    = cleanup_whitespace(params.fetch(:username))
+      if @username == ""
+        raise Rst::InvalidUser.new("A non-blank username is required.")
+      end
+
+      @path        = cleanup_whitespace(params.fetch(:path))
+      if @path == ""
+        raise Rst::InvalidUser.new("A non-blank user path is required.")
+      end
+
+      @full_name   = cleanup_whitespace(params.fetch(:full_name, ""))
+      @description = cleanup_whitespace(params.fetch(:description, ""))
     end
 
     def to_s
@@ -14,7 +22,7 @@ module Rst
     end
 
     def display_full_name
-      if @full_name.nil? || @full_name == ""
+      if @full_name == ""
         "No full name"
       else
         @full_name
@@ -22,7 +30,7 @@ module Rst
     end
 
     def display_description
-      if @description.nil? || @description == ""
+      if @description == ""
         "No bio"
       else
         @description
@@ -34,7 +42,7 @@ module Rst
         :username    => li.css("span.user-text").text,
         :full_name   => li.css("span.user-name").text,
         :description => li.css("span.description").text,
-        :path        => li.xpath(".//a[contains(@rel, 'user')]").first["href"]
+        :path        => li.xpath(".//a[contains(@rel, 'user')]/@href").text
       )
     end
 

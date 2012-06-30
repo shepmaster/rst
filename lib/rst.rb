@@ -5,7 +5,7 @@ require "rst/client"
 require "rst/user"
 
 module Rst
-
+  class InvalidUser < StandardError; end
 
 
 end
