@@ -17,26 +17,6 @@ module Rst
       @description = cleanup_whitespace(params.fetch(:description, ""))
     end
 
-    def to_s
-      "#{@username} (#{display_full_name}): #{display_description}"
-    end
-
-    def display_full_name
-      if @full_name == ""
-        "No full name"
-      else
-        @full_name
-      end
-    end
-
-    def display_description
-      if @description == ""
-        "No bio"
-      else
-        @description
-      end
-    end
-
     def self.parse(li)
       new(
         :username    => li.css("span.user-text").text,

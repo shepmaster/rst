@@ -31,7 +31,7 @@ module Rst
       if users.empty?
         ["No users that match."]
       else
-        users
+        users.map{|u| Rst::UserPresenter.new(u) }
       end
     end
 
