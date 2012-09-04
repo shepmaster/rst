@@ -72,6 +72,24 @@ describe "user" do
       user.description.must_equal("I love Ruby")
     end
 
+    it "can parse a user link even if there are multiple rels and false substring matches" do
+      li = Nokogiri::HTML.parse(
+        <<-HERE
+        <li class='even user'>
+          <div class='info'>
+            <a href="/foo" rel='not-user'>Wrong link</a>
+            <a href='/users/Carols10cents' rel='user messages'>
+              <span class="user-text">Carols10cents</span>
+            </a>
+          </div>
+        </li>
+        HERE
+      )
+      user = Rst::User.parse(li)
+      user.path.must_equal("/users/Carols10cents")
+    end
+
+
     it "does not raise an error if optional elements are not present" do
       li = Nokogiri::HTML.parse(
         <<-HERE

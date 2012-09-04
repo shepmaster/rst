@@ -22,7 +22,7 @@ module Rst
         :username    => li.css("span.user-text").text,
         :full_name   => li.css("span.user-name").text,
         :description => li.css("span.description").text,
-        :path        => li.xpath(".//a[contains(@rel, 'user')]/@href").text
+        :path        => li.xpath(".//a[contains(concat(' ', normalize-space(@rel), ' '), ' user ')]/@href").text
       )
     end
 

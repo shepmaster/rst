@@ -76,7 +76,7 @@ module Rst
       raise "no rel specified" unless params[:rel]
 
       link = html.xpath(
-        ".//a[contains(@rel, '#{params[:rel]}')]"
+        ".//a[contains(concat(' ', normalize-space(@rel), ' '), ' #{params[:rel]} ')]"
       ).first["href"]
     end
 

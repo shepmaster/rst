@@ -4,8 +4,14 @@ require_relative 'vcr_setup'
 describe "client" do
   describe "messages_all" do
     describe "successful requests" do
-      it "gets the root URL, follows the a rel=messages_all, gets updates" do
+      it "gets the root URL, follows the a rel=messages-all, gets updates" do
         VCR.use_cassette("successful_messages_all") do
+          Rst::Client.messages_all.size.must_equal 20
+        end
+      end
+
+      it "can find a rel=messages-all with other rels, not match false substrings" do
+        VCR.use_cassette("successful_messages_all_multiple_rels") do
           Rst::Client.messages_all.size.must_equal 20
         end
       end
