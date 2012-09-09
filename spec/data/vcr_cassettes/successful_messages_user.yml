@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://rstat.us
+    uri: https://rstat.us
     body:
       encoding: US-ASCII
       string: ''
@@ -190,7 +190,7 @@ http_interactions:
   recorded_at: Sat, 16 Jun 2012 20:58:21 GMT
 - request:
     method: get
-    uri: http://rstat.us/users
+    uri: https://rstat.us/users
     body:
       encoding: US-ASCII
       string: ''
@@ -274,7 +274,7 @@ http_interactions:
   recorded_at: Sat, 16 Jun 2012 20:58:22 GMT
 - request:
     method: get
-    uri: http://rstat.us/users?search=carols10cents
+    uri: https://rstat.us/users?search=carols10cents
     body:
       encoding: US-ASCII
       string: ''
@@ -371,7 +371,7 @@ http_interactions:
   recorded_at: Sat, 16 Jun 2012 20:58:22 GMT
 - request:
     method: get
-    uri: http://rstat.us/users/Carols10cents
+    uri: https://rstat.us/users/Carols10cents
     body:
       encoding: US-ASCII
       string: ''
@@ -497,7 +497,7 @@ http_interactions:
         /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
         Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
         class='entry-content'>\n<span class='message-text'>\nCHECK IT OUT RSTAT.US
-        HAS SPAMMERS!!!!! <a href='http://rstat.us/users/Mats4Floor'>http://rstat.us/users/Mats4Floor</a>
+        HAS SPAMMERS!!!!! <a href='https://rstat.us/users/Mats4Floor'>https://rstat.us/users/Mats4Floor</a>
         WE'RE REAL NOW!!!\n</span>\n</div>\n<div class='info'>\n<time class=\"published\"
         datetime=\"2012-06-14T23:16:36Z\" pubdate=\"pubdate\"><a class=\"timeago\"
         href=\"/updates/4fda70d479fab10001016bb1\" rel=\"bookmark message\" title=\"2012-06-14T23:16:36Z\"><span
@@ -533,7 +533,7 @@ http_interactions:
         /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
         Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
         class='entry-content'>\n<span class='message-text'>\nWooo!! 9 WNY.rb-ers coming
-        to <a href='http://rstat.us/users/steelcityruby'>@SteelCityRuby</a>! <a href='http://www.meetup.com/Western-New-York-Ruby/events/67980262/'>http://www.meetup.com/Western-New-York-Ruby/events/67980262/</a>\n</span>\n</div>\n<div
+        to <a href='https://rstat.us/users/steelcityruby'>@SteelCityRuby</a>! <a href='http://www.meetup.com/Western-New-York-Ruby/events/67980262/'>http://www.meetup.com/Western-New-York-Ruby/events/67980262/</a>\n</span>\n</div>\n<div
         class='info'>\n<time class=\"published\" datetime=\"2012-06-10T03:21:45Z\"
         pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fd412c889a3c7000101c674\"
         rel=\"bookmark message\" title=\"2012-06-10T03:21:45Z\"><span class=\"date-time\">2012-06-10T03:21:45</span></a></time>\n</div>\n<div
@@ -641,7 +641,7 @@ http_interactions:
         src=\"http://a3.twimg.com/profile_images/1130473710/3787804018_7c69c8a022_m_normal.jpg\"
         /></a></div>\n</a>\n<span class='fn'>\n<a class='url' href='/users/Carols10cents'>\nCarol
         Nichols\n(<span class=\"nickname user-text\">Carols10cents</span>)\n</a>\n</span>\n</div>\n<div
-        class='entry-content'>\n<span class='message-text'>\nI posted to the <a href='http://rstat.us/users/steelcityruby'>@SteelCityRuby</a>
+        class='entry-content'>\n<span class='message-text'>\nI posted to the <a href='https://rstat.us/users/steelcityruby'>@SteelCityRuby</a>
         blog yesterday: Stop the Celebrity Worship <a href='http://is.gd/ReTCW8'>http://is.gd/ReTCW8</a>\n</span>\n</div>\n<div
         class='info'>\n<time class=\"published\" datetime=\"2012-05-30T13:21:14Z\"
         pubdate=\"pubdate\"><a class=\"timeago\" href=\"/updates/4fc61ec9e0aae0000100f131\"

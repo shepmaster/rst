@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://rstat.us
+    uri: https://rstat.us
     body:
       encoding: US-ASCII
       string: ""
@@ -391,7 +391,7 @@ http_interactions:
   recorded_at: Sun, 03 Jun 2012 15:21:12 GMT
 - request:
     method: get
-    uri: http://rstat.us/updates
+    uri: https://rstat.us/updates
     body:
       encoding: US-ASCII
       string: ""

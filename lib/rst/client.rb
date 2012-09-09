@@ -92,7 +92,7 @@ module Rst
     end
 
     def base_uri
-      "http://rstat.us"
+      "https://rstat.us"
     end
 
     def get_body(uri)

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://rstat.us
+    uri: https://rstat.us
     body:
       encoding: US-ASCII
       string: ''
@@ -187,7 +187,7 @@ http_interactions:
   recorded_at: Sun, 17 Jun 2012 22:26:00 GMT
 - request:
     method: get
-    uri: http://rstat.us/users
+    uri: https://rstat.us/users
     body:
       encoding: US-ASCII
       string: ''
@@ -271,7 +271,7 @@ http_interactions:
   recorded_at: Sun, 17 Jun 2012 22:26:00 GMT
 - request:
     method: get
-    uri: http://rstat.us/users?search=ca
+    uri: https://rstat.us/users?search=ca
     body:
       encoding: US-ASCII
       string: ''

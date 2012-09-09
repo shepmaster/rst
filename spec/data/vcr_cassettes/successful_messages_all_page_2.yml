@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://rstat.us
+    uri: https://rstat.us
     body:
       encoding: US-ASCII
       string: ''
@@ -188,7 +188,7 @@ http_interactions:
   recorded_at: Sun, 17 Jun 2012 01:33:55 GMT
 - request:
     method: get
-    uri: http://rstat.us/updates
+    uri: https://rstat.us/updates
     body:
       encoding: US-ASCII
       string: ''
@@ -515,7 +515,7 @@ http_interactions:
   recorded_at: Sun, 17 Jun 2012 01:33:56 GMT
 - request:
     method: get
-    uri: http://rstat.us
+    uri: https://rstat.us
     body:
       encoding: US-ASCII
       string: ''
@@ -701,7 +701,7 @@ http_interactions:
   recorded_at: Sun, 17 Jun 2012 01:33:56 GMT
 - request:
     method: get
-    uri: http://rstat.us/updates
+    uri: https://rstat.us/updates
     body:
       encoding: US-ASCII
       string: ''
@@ -1028,7 +1028,7 @@ http_interactions:
   recorded_at: Sun, 17 Jun 2012 01:33:58 GMT
 - request:
     method: get
-    uri: http://rstat.us/updates?page=2&per_page=20
+    uri: https://rstat.us/updates?page=2&per_page=20
     body:
       encoding: US-ASCII
       string: ''
