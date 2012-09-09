@@ -21,6 +21,11 @@ Options:"
     options[:num] = n.to_i
   end
 
+  options[:debug] = false
+  opts.on("-t", "--trace", "Show backtrace for errors") do
+    options[:debug] = true
+  end
+
   opts.on_tail("-h", "--help", "Show this message") do
     puts opts
     exit

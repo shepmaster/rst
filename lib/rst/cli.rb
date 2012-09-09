@@ -10,7 +10,14 @@ module Rst
 
       puts results.join("\n\n")
     rescue Exception => e
-      puts e.message
+      puts "ERROR: #{e.message}"
+
+      if options[:debug]
+        puts e.backtrace.join("\n")
+      else
+        puts "Run with --trace for the full backtrace."
+      end
+
       exit 1
     end
 
