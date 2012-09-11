@@ -22,6 +22,8 @@ Current Functionality
 * Read rstat.us world statuses without being logged in.
 * Read a particular user's statuses without being logged in.
 * Search for users whose username contains a pattern.
+* Allow changing the base URI to something other than "https://rstat.us"
+* Have an option to get the full backtrace if there is an error
 
 Future functionality
 --------------------
