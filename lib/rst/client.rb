@@ -3,7 +3,10 @@ require 'typhoeus'
 
 module Rst
   class Client
-    def initialize
+    attr_reader :base_uri
+
+    def initialize(base_uri = "https://rstat.us")
+      @base_uri = base_uri
     end
 
     def messages_all(params = {:page => 1})
@@ -90,10 +93,6 @@ module Rst
       raise "no base uri specified" unless params[:base]
 
       (URI(params[:base]) + URI(params[:relative])).to_s
-    end
-
-    def base_uri
-      "https://rstat.us"
     end
 
     def get_body(uri)

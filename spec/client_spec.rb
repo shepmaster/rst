@@ -6,6 +6,17 @@ describe "client" do
     @client = Rst::Client.new
   end
 
+  describe "base_uri" do
+    it "is https://rstat.us by default" do
+      @client.base_uri.must_equal "https://rstat.us"
+    end
+
+    it "can be changed to a different URI" do
+      uri = "http://example.com"
+      Rst::Client.new(uri).base_uri.must_equal uri
+    end
+  end
+
   describe "messages_all" do
     describe "successful requests" do
       it "gets the root URL, follows the a rel=messages-all, gets updates" do
