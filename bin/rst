@@ -47,5 +47,5 @@ rst_parser.parse!
 if ARGV.empty?
   puts rst_parser.help
 else
-  Rst::CLI.new.run(options, ARGV)
+  Rst::CLI.new(Rst::Client.new(options[:base_uri])).run(options, ARGV)
 end
