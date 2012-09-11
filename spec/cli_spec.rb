@@ -5,29 +5,29 @@ require 'rst'
 
 describe "Rst::CLI" do
   before do
-    @cli = Rst::CLI
+    @cli = Rst::CLI.new
   end
 
   describe "world" do
     it "gets the world updates" do
       page_of_updates = 20.times.map { "Hi" }
-      Rst::Client.expects(:messages_all).once.returns(page_of_updates)
+      Rst::Client.any_instance.expects(:messages_all).once.returns(page_of_updates)
 
       @cli.world.size.must_equal(20)
     end
 
     it "can specify a number of world updates to get" do
-      Rst::Client.stubs(:messages_all).returns(["Hi", "Bye", "Yo"])
+      Rst::Client.any_instance.stubs(:messages_all).returns(["Hi", "Bye", "Yo"])
       @cli.world(:num => 2).size.must_equal(2)
     end
 
     it "gets as many updates as it can but stops if there arent more" do
-      Rst::Client.stubs(:messages_all).returns(["Hi", "Bye", "Yo"], [])
+      Rst::Client.any_instance.stubs(:messages_all).returns(["Hi", "Bye", "Yo"], [])
       @cli.world(:num => 5).size.must_equal(3)
     end
 
     it "should have Rst::Statuses" do
-      Rst::Client.stubs(:messages_all).returns([
+      Rst::Client.any_instance.stubs(:messages_all).returns([
         Rst::Status.new(:username => "ueoa", :text => "foo!")
       ])
       @cli.world(:num => 1).first.to_s.must_equal("ueoa: foo!")
@@ -42,7 +42,7 @@ describe "Rst::CLI" do
     it "gets one user's updates" do
       page_of_updates = 20.times.map { "Hi" }
 
-      Rst::Client.expects(:messages_user).
+      Rst::Client.any_instance.expects(:messages_user).
                   once.
                   with({:username => username, :page => 1}).
                   returns(page_of_updates)
@@ -51,7 +51,7 @@ describe "Rst::CLI" do
     end
 
     it "can specify a number of one user's updates to get" do
-      Rst::Client.stubs(:messages_user).returns(["Hi", "Bye", "Yo"])
+      Rst::Client.any_instance.stubs(:messages_user).returns(["Hi", "Bye", "Yo"])
       @cli.user({:num => 2}, username).size.must_equal(2)
     end
 
@@ -65,7 +65,7 @@ describe "Rst::CLI" do
     it "searches for that pattern" do
       users = ["one", "two"]
 
-      Rst::Client.expects(:users_search).
+      Rst::Client.any_instance.expects(:users_search).
                   once.
                   with({:pattern => "o"}).
                   returns(users)

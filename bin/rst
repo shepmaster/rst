@@ -47,5 +47,5 @@ rst_parser.parse!
 if ARGV.empty?
   puts rst_parser.help
 else
-  Rst::CLI.run(options, ARGV)
+  Rst::CLI.new.run(options, ARGV)
 end

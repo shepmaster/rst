@@ -1,6 +1,7 @@
 module Rst
-  module CLI
-    extend self
+  class CLI
+    def initialize
+    end
 
     def run(options, args = [])
       command      = args[0]
@@ -34,7 +35,7 @@ module Rst
     def users_search(params = {}, args = [])
       search_pattern = args[0]
       raise "Username search pattern is required." unless search_pattern
-      users = Rst::Client.users_search(:pattern => search_pattern)
+      users = Rst::Client.new.users_search(:pattern => search_pattern)
       if users.empty?
         ["No users that match."]
       else
@@ -51,7 +52,7 @@ module Rst
 
       while statuses.size < num do
         page += 1
-        messages = Rst::Client.send(which, params.merge(:page => page))
+        messages = Rst::Client.new.send(which, params.merge(:page => page))
 
         break if messages.empty?
 

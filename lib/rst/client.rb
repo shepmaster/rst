@@ -2,8 +2,9 @@ require 'nokogiri'
 require 'typhoeus'
 
 module Rst
-  module Client
-    extend self
+  class Client
+    def initialize
+    end
 
     def messages_all(params = {:page => 1})
       messages_all_path = find_a_in(root_response, :rel => "messages-all")
