@@ -26,6 +26,11 @@ Options:"
     options[:debug] = true
   end
 
+  options[:base_uri] = "https://rstat.us"
+  opts.on("-u URI", "--uri", "Use a different base URI (default: https://rstat.us)") do |u|
+    options[:base_uri] = u
+  end
+
   opts.on_tail("-h", "--help", "Show this message") do
     puts opts
     exit
